@@ -10,3 +10,11 @@ footer li {
 .follow-us a img {
     min-width: 48px;
 }
+
+.mobile-margin {
+    margin-left: 7%;
+}
+
+.mobile-resize {
+ width: 100%;
+}

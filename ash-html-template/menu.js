@@ -12,6 +12,28 @@ $("#mega-menu-pull-down").click(function () {
     }
 });
 
+$("#mega-menu-mobile").click(function () {
+    if ($("nav").is(":visible")) {
+        $("nav").slideUp();
+    }
+    else {
+        $("nav").slideDown();
+    }
+});
+
+$(".toggle-sub-menu").click(function () {
+    event.preventDefault();
+    if ($(this).parent().find("ul").is(":visible")) {
+        $(this).removeClass("expanded");
+        $(this).parent().find("ul").slideUp();
+    }
+    else {
+        $(this).addClass("expanded");
+        $(this).parent().find("ul").slideDown();
+    }
+});
+
+
 $("#scope-selector").click(function () {
     if ($("#search-selector").is(":visible")) {
         $("#search-selector").slideUp();

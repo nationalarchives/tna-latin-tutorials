@@ -1,0 +1,491 @@
+/*------------------------------------*
+   SUMMARY
+ *------------------------------------*/
+ 
+/* 
+Created: 4th March 2014
+Author: The National Archives Web Team
+
+This stylesheet contains all background images for The National Archives homepage and landing pages. 
+Image links need to be full so that they are able to be updated when required and still work in the editor
+
+*/
+
+/*------------------------------------*
+   CONTENTS
+ *------------------------------------*/
+  
+/*
+1. HOME
+2. ABOUT US
+3. EDUCATION
+4. RECORDS
+5. INFORMATION MANAGEMENT
+6. ARCHIVES SECTOR
+7. DESIGN GUIDE
+*/
+
+/*------------------------------------*
+1.	HOME
+ *------------------------------------*/
+    
+.box-education {
+	background: url("http://www.nationalarchives.gov.uk/images/home/education-bg.jpg") no-repeat top center;
+}
+.box-archives-sector {
+	background: url("http://www.nationalarchives.gov.uk/images/home/archives-sector.jpg") no-repeat top center;
+}
+.box-info-management {
+	background: url("http://www.nationalarchives.gov.uk/images/home/infoman-bg.jpg") no-repeat top center;
+}
+.box-blog {
+	background: url("http://www.nationalarchives.gov.uk/images/home/blog-bg.jpg") no-repeat top;
+}
+.box-media {
+	background: url("http://www.nationalarchives.gov.uk/images/home/media-bg.jpg") no-repeat top;
+}
+.box-newsletter  {
+	background: url("../images/home/enewsletter-bg.jpg") no-repeat right top;
+}
+.box-image-library {
+	background: url("http://www.nationalarchives.gov.uk/images/home/imagelibrary-bg.jpg") no-repeat top;
+}
+.box-bookshop {
+	background: url("http://www.nationalarchives.gov.uk/images/home/bookshop-bg.jpg") no-repeat top;
+
+
+}
+.box-community  {
+	background: url("../images/backgrounds/bg-community.jpg") no-repeat top;
+}
+
+.box-exhibition /* now first-world-war content */ {
+	background: url("../images/backgrounds/bg-firstworldwar.jpg") no-repeat top;
+}
+
+/* this version includes serrated edge effect at the top and bottom
+.banner-newsletter {
+	background-image: 
+				url("../images/global/banner-ridge-btm-eee.png"),
+				url("../images/backgrounds/banner-newsletter.png"),
+				url("../images/global/banner-ridge-top-eee.png"),
+				url("../images/global/bg-snbox-000-50.png");
+	background-repeat: repeat-x, no-repeat, repeat-x, repeat;	background-position: bottom, bottom right, top, center;
+		background-size: 8px, 180px, 8px, 100%;
+    }
+*/
+
+
+.banner-newsletter {
+		background-image: 
+				url("../images/backgrounds/banner-newsletter.png");
+		background-repeat: no-repeat, repeat;	
+		background-position: bottom right;
+		background-size: 180px, 31px;
+		background-color: #B2C4C9;
+    }
+
+
+/*------------------------------------*
+2.	ABOUT US
+ *------------------------------------*/                                    
+
+.about {
+	background-image: url("http://www.nationalarchives.gov.uk/images/about/section-banner-about-us.jpg");
+}
+.box-getinvolved {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/about/aboutus-get.jpg") no-repeat top center;
+}
+.box-foi {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/about/aboutus-foi.jpg") no-repeat top center;
+}
+.box-jobs {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/about/aboutus-jobs.jpg") no-repeat top center;
+}
+.box-role {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/about/aboutus-role.jpg") no-repeat top center;
+}
+.our-role {
+	background: #fff url("../images/about/aboutus-role-page.jpg") no-repeat top center;
+}
+.visit-us {
+    background: #fff url("../images/about/visit-us-page.jpg") no-repeat top center;
+}
+
+
+/*------------------------------------*
+3.	EDUCATION
+ *------------------------------------*/
+ 
+.education {
+	background: url("http://www.nationalarchives.gov.uk/images/education/section-banner-education.jpg");
+}
+.box-document {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/education/education-document.jpg") no-repeat top center;
+	
+}
+.box-film {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/education/education-film.jpg") no-repeat top center;	
+}
+.box-victorian {
+	background: url("http://www.nationalarchives.gov.uk/images/education/education-victorian.jpg") no-repeat top center;	
+}
+.education-imgBox-01 {
+	background: url("http://www.nationalarchives.gov.uk/images/education/education-imagebox-1.jpg") no-repeat top center;	background-size: cover;
+}
+.education-imgBox-02 {
+	background: url("http://www.nationalarchives.gov.uk/images/education/education-imagebox-2.jpg") no-repeat top center;background-size: cover;	
+}
+.education-imgBox-03 {
+	background: url("http://www.nationalarchives.gov.uk/images/education/education-imagebox-3.jpg") no-repeat top center;background-size: cover;
+}
+.education-imgBox-sussex {
+	background: url("../images/education/education-sussex.jpg") no-repeat top center;	
+}
+.education-imgBox-attlee {
+	background: url("../images/education/education-attlee.jpg") no-repeat top center;	
+}
+.education-imgBox-community {
+	background: url("../images/education/education-community.jpg") no-repeat top center;
+}
+.education-imgBox-connect {
+	background: url("../images/education/education-connect.jpg") no-repeat top left;
+background-position: 35%;	/* manual edit based on how heading length may obscure image elements */
+background-size: cover;
+}
+.education-imgBox-students {
+	background: #fff url("../images/education/education-students.jpg") no-repeat top center;
+	background-size: cover;
+}
+.education-imgBox-teachers {
+	background: #fff url("../images/education/education-teachers.jpg") no-repeat top center;
+	background-size: cover;
+}
+
+.for-students {background-image: url("../images/education/education-students.jpg");
+background-size: cover;
+}
+
+.for-teachers {background-image: url("../images/education/education-banner.jpg");
+background-size: cover;
+}
+
+.era-medieval {
+	background-image: url("../images/education/era-medieval.jpg");
+	background-size: cover;
+}
+.era-earlymodern {
+	background-image: url("../images/education/era-earlymodern.jpg");
+	background-size: cover;
+}
+.era-imperial {
+	background-image: url("../images/education/era-imperial.jpg");
+	background-size: cover;
+	background-position: bottom;
+}
+.era-victorian {
+	background-image: url("../images/education/era-victorian.jpg");
+	background-size: cover;
+}
+.era-early20th {
+	background-image: url("../images/education/era-early20th.jpg");
+	background-size: cover;
+}
+.era-interwar {
+	background-image: url("../images/education/era-interwar.jpg");
+	background-size: cover;
+}
+.era-secondworldwar {
+	background-image: url("../images/education/era-secondworldwar.jpg");
+	background-size: cover;
+}
+.era-postwar {
+	background-image: url("../images/education/era-postwar.jpg");
+	background-size: cover;
+}  
+
+
+
+/*------------------------------------*
+4.	RECORDS
+ *------------------------------------*/                                                  
+
+.records,.help-with-your-research {
+	background-image: url("http://www.nationalarchives.gov.uk/images/records/section-banner-records.jpg");
+	background-position: right top;
+}
+.box-blog-2 {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/records/records-blog.jpg") no-repeat top center;	
+}
+.box-podcasts {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/records/records-podcasts.jpg") no-repeat top center;	
+}
+.box-webinars {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/records/records-webinars.jpg") no-repeat top center;	
+}
+.box-exhibitions {
+	background: #fff url("http://www.nationalarchives.gov.uk/images/records/records-exhibitions.png") no-repeat top center;
+}
+.box-1 {
+	background: url("../images/records/place-image.jpg") no-repeat center center;
+	background-size: cover;
+}
+.box-2 {
+	background: url("../images/records/person-image.jpg") no-repeat center center;
+	background-size: cover;
+}
+.box-3 {
+	background: url("../images/records/subject-image.jpg") no-repeat center center;
+	background-size: cover;
+}
+.records-citing-docs {
+	background: url("../images/records/records-citing-docs.jpg") no-repeat center center;
+	background-size: cover;
+}
+.records-reading-old-docs {
+	background: url("../images/records/records-reading-old-docs.jpg") no-repeat center center;
+	background-size: cover;
+}
+.records-start-here {
+	background: url("../images/records/records-start-here.jpg") no-repeat center center;
+	background-size: cover;
+}
+.records-other-tools {
+	background: url("../images/records/records-other-tools.jpg") no-repeat center center;
+	background-size: cover;
+}
+#records-landing {
+	background: #383838 url("../images/records/records-inf-3-1578-1939-1946.jpg") no-repeat top center;
+	background-size: cover;
+	min-height: 288px;
+	position: relative;
+	background-position: 0px 80%;
+}
+.records-pictorial-list-img01, .medals {
+	background-image: url("../images/records/military.png");
+	background-size: cover;
+	background-position: center left;
+}
+.records-pictorial-list-img02, .wills {
+	background-image: url("../images/records/wills.png");
+	background-size: cover;
+	background-position: center left;
+}
+.records-pictorial-list-img03, .navy {
+	background-image: url("../images/records/navy.png");
+	background-size: cover;
+	background-position: center left;
+}
+.records-pictorial-list-img04, .marines {
+	background-image: url("../images/records/marines.png");
+	background-size: cover;
+	background-position: center left;
+}
+.records-pictorial-list-img05, .raf {
+	background-image: url("../images/records/raf.png");
+	background-size: cover;
+	background-position: center left;
+}
+.records-pictorial-list-other, .more {
+	background-image: url("../images/records/other.png");
+	background-size: cover;
+	background-position: center left;
+}
+
+.records-special-ufos {
+background-image:url("http://nationalarchives.gov.uk/images/ufos/banner-air-2-19086.jpg");
+background-size: cover;
+}
+
+/* HELP WITH YOUR RESEARCH - RESEARCH GUIDES CATEGORIES */
+
+.family-history,
+.research-category-family {	
+	background-image: url("../images/backgrounds/banner-category-family.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.first-world-war {
+	background-image: url("../images/backgrounds/banner-category-firstworldwar.jpg");
+	background-position: center center;
+}
+.research-category-firstworldwar {
+	background-image: url("../images/backgrounds/banner-category-firstworldwar.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.second-world-war,
+.research-category-secondworldwar {
+	background-image: url("../images/backgrounds/banner-category-secondworldwar.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.military-maritime,
+.research-category-militarymaritime {
+	background-image: url("../images/backgrounds/banner-category-militarymaritime.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.social-cultural,
+.research-category-socialcultural {
+	background-image: url("../images/backgrounds/banner-category-socialcultural.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.criminals-courts,
+.research-category-criminalscourtsprisons {
+	background-image: url("../images/backgrounds/banner-category-criminalscourtsprisons.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.political-economic,
+.research-category-politicaleconomic {
+	background-image: url("../images/backgrounds/banner-category-politicaleconomic.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.foreign-colonial,
+.research-category-foreigncolonial {
+	background-image: url("../images/backgrounds/banner-category-foreigncolonial.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.lands-maps,
+.research-category-landmaps {
+	background-image: url("../images/backgrounds/banner-category-landmaps.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.medieval-early-modern,
+.research-category-medievalearlymodern {
+	background-image: url("../images/backgrounds/banner-category-medievalearlymodern.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.records-legal-purposes,
+.research-category-currentlegal {
+	background-image: url("../images/backgrounds/banner-category-currentlegal.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.online-collections,
+.research-category-onlinecollections {
+	background-image: url("../images/backgrounds/banner-category-onlinecollections.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+/* RESEARCH GUIDES FILTER PAGE BANNERS */
+
+
+.banner-category-family {
+	background-image: url("../images/backgrounds/banner-category-family.png"); /* update */
+}
+.banner-category-firstworldwar {
+	background-image: url("../images/backgrounds/banner-category-firstworldwar.png");
+}
+.banner-category-secondworldwar {
+	background-image: url("../images/backgrounds/banner-category-secondworldwar.png");
+}
+.banner-category-militarymaritime {
+	background-image: url("../images/backgrounds/banner-category-militarymaritime.png");
+}
+.banner-category-socialcultural {
+	background-image: url("../images/backgrounds/banner-category-socialcultural.png");
+}
+.banner-category-criminalscourtsprisons {
+	background-image: url("../images/backgrounds/banner-category-criminalscourtsprisons.png");
+}
+.banner-category-politicaleconomic {
+	background-image: url("../images/backgrounds/banner-category-politicaleconomic.png");
+}
+.banner-category-foreigncolonial {
+	background-image: url("../images/backgrounds/banner-category-foreigncolonial.png");
+}  
+.banner-category-landmaps {
+	background-image: url("../images/backgrounds/banner-category-landmaps.png");
+}
+.banner-category-medievalearlymodern {
+	background-image: url("../images/backgrounds/banner-category-medievalearlymodern.png");
+}
+.banner-category-currentlegal {
+	background-image: url("../images/backgrounds/banner-category-currentlegal.png");
+}
+.banner-category-onlinecollections {
+	background-image: url("../images/backgrounds/banner-category-onlinecollections.png");
+}
+
+
+/*------------------------------------*
+5.	INFORMATION MANAGEMENT
+ *------------------------------------*/                                                                 
+
+.information-management {
+	background-image: url("../images/information-management/section-banner-information-management.jpg") ;
+}
+.box-regulations {
+	background: #fff url("../images/information-management/im-regulations.jpg") no-repeat top center;
+}
+.box-training {
+	background: #fff url("../images/information-management/im-training.jpg") no-repeat top center;
+}
+.keeping-in-touch {
+  background-image: url("../images/backgrounds/bg-keepingintouch-copy1-147-83.jpg");
+}
+.re-using-public-sector-info {
+  background-image: url("../images/backgrounds/bg-reusing-information-work25-196-1851.jpg");
+}
+.producing-official-publications {
+  background-image: url("../images/information-management/im-regulations.jpg");
+}
+.training-courses-and-events {
+  background-image: url("../images/information-management/im-training.jpg");
+}
+.legislation-and-regulations {
+  background-image: url("../images/backgrounds/bg-legislation-regulation-pro8-20.jpg");
+}
+.manage-your-information {
+  background-image: url("../images/backgrounds/bg-howtomanage-FO850-234.jpg");
+}
+.start-here {
+    background-image: url("../images/backgrounds/bg-start-here.png");
+    background-size: cover;
+}
+.reading-old-documents {
+	background-image: url("../images/backgrounds/bg-reading-old-documents.jpg");
+	background-size: cover;
+}
+/*------------------------------------*
+6.	ARCHIVES SECTOR
+ *------------------------------------*/                                             
+
+.archives-sector {
+	background: url("../images/archives/section-banner-archives-sector.jpg") no-repeat top center;
+}
+.box-resources {
+	background: #fff url("../images/archives/archives-resources.jpg") no-repeat top center;
+}
+.box-practical-guidance {
+	background: #fff url("../images/archives/archives-practical-guidance.jpg") no-repeat top center;
+}
+
+
+
+/*------------------------------------*
+7.	DESIGN GUIDE
+ *------------------------------------*/   
+
+ .banner-designguide {
+ 	background-image: url("../images/backgrounds/bg-designguide-bt45-27-5246.jpg");
+ }
+
+
+/*------------------------------------*
+8.	BUSINESS PLAN
+ *------------------------------------*/
+
+.business-plan {
+    background-image: url("../images/backgrounds/bg-business-plan.jpg");
+}
+

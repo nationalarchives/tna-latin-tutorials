@@ -1,1 +1,0 @@
-# tna-latin tutorials

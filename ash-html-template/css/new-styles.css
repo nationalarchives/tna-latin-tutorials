@@ -1,0 +1,21 @@
+.top-spacing {
+    margin-top: 30px;
+}
+
+footer li {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.follow-us a img {
+    min-width: 48px;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-resize {
+        width: 100%;
+    }
+    .mobile-margin {
+        margin-left: 6%;
+    }
+}

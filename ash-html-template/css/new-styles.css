@@ -11,10 +11,11 @@ footer li {
     min-width: 48px;
 }
 
-.mobile-margin {
-    margin-left: 7%;
-}
-
-.mobile-resize {
- width: 100%;
+@media only screen and (max-width: 767px) {
+    .mobile-resize {
+        width: 100%;
+    }
+    .mobile-margin {
+        margin-left: 6%;
+    }
 }

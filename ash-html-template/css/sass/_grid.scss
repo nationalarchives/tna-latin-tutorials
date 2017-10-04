@@ -1,0 +1,259 @@
+
+.row {
+  position: relative;
+}
+.col {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 2%;
+  min-height: 100%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+.clr:after, .col:after, .group:after, .row:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.separator-illusion {
+  height: 20px;
+  background-color: #ECECEC;
+}
+.grid-within-grid-three-item > div, .grid-within-grid-two-item > div {
+  width: 99%;
+  margin: 0 2% 10px 0;
+  float: left;
+}
+.grid-within-grid-eight-item > div, .grid-within-grid-six-item > div, .grid-within-grid-four-item > div {
+  width: 49%;
+  margin: 0 2% 10px 0;
+  float: left;
+}
+
+.grid-within-grid-eight-item > div:nth-child(2n), .grid-within-grid-four-item > div:nth-child(2n), .grid-within-grid-six-item > div:nth-child(2n), .grid-within-grid-two-item > div:nth-child(2n) {
+  margin-right: 0;
+}
+.starts-at-full {
+  width: 100%;
+}
+.starts-at-half {
+  width: 49%;
+  $width:48.9%;
+  margin-left: 2%
+}
+.starts-at-half:nth-child(odd) {
+  margin-left: 0;
+}
+.starts-at-third {
+  width: 33%;
+}
+#index > .col:nth-child(odd) {
+  margin-left: 0;
+}
+#index > .col {
+  min-height: 12em;
+}
+.grid-within-grid-one-item > div, .grid-within-grid-one-item > a {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+
+.breather .minbox-trio div img {
+  width: auto;
+  margin:0;
+  display:block;
+  text-align: center;
+}
+
+
+
+/* Research guide commercial links */
+.provider-label{
+  float:left;
+  display:block;
+  width:92%;
+  border:1px solid #ddd;
+  padding:7px;
+}
+.provider-btn{
+  float:left;
+  display: inline;
+  padding:10px;
+  margin-right:10px !important;
+  -webkit-transition: background 300ms ease;
+  -moz-transition: background 300ms ease;
+  -ms-transition: background 300ms ease;
+  -o-transition: background 300ms ease;
+  transition: background 300ms ease;
+  border:1px solid #ddd;
+  background-color: #fff;
+}
+
+.provider-btn:hover{
+  border:1px solid #ccc;
+  -webkit-transition: background 300ms ease;
+  -moz-transition: background 300ms ease;
+  -ms-transition: background 300ms ease;
+  -o-transition: background 300ms ease;
+  transition: background 300ms ease;
+}
+.find-my-past, .ancestry, .bmd{
+  width:90px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float:left;
+  margin-right:4px;
+  margin-left:4px;
+}
+.find-my-past{
+  background-image: url("http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/tna-find-my-past.png");
+  position: relative;
+  top:1px;
+}
+.ancestry{
+  background-image: url("http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/tna-ancestry.png");
+}
+.bmd{
+  background-image: url("http://nationalarchives.gov.uk/wp-content/themes/tna/records/tna-bmdregisters.png");
+  position: relative;
+  top:2px;
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+  .grid-within-grid-eight-item > div, .grid-within-grid-four-item > div, .grid-within-grid-six-item > div {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:480px) {
+
+  .ends-at-one-third,
+  .ends-at-one-quarter,
+  .grid-within-grid-one-item > a,
+  .grid-within-grid-one-item > div,
+  .grid-within-grid-two-item > div,
+  .grid-within-grid-three-item > div,
+  .grid-within-grid-eight-item > div,
+  .grid-within-grid-four-item > div,
+  .grid-within-grid-six-item > div {
+    width:48%;
+    margin: 0 2% 2% 0;
+
+  }
+  .ends-at-one-quarter:nth-child(odd) {
+    margin-left: 0;
+  }
+
+  .ends-at-one-third:nth-child(even) {
+    width: 48%;
+    margin: 0 0 0 2%;
+  }
+
+  .ends-at-one-third:nth-child(3n) {
+    width: 48%;
+    margin: 1.5em 0 2em 0;
+    clear:left;
+  }
+
+  .ends-at-two-thirds + .ends-at-one-third {
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+
+  .breather > .grid-within-grid-three-item > div {
+    width:31.3%; /* required for 'Contact us for advice box' on Records landing page*/
+  }
+}
+
+@media only screen and (min-width:768px) {
+
+  .col, .ends-at-one-quarter:nth-child(3) {
+    margin-left: 2%;
+  }
+
+  .ends-at-one-third, .ends-at-one-third:nth-child(even) {
+    width: 32%;
+    margin: 0 2% 2% 0;
+  }
+
+  .ends-at-one-third:nth-child(3n) {
+    width: 32%;
+    margin: 0 0 2% 0;
+    clear:none;
+
+  }
+
+  .ends-at-two-thirds {
+    width: 66%;
+  }
+
+  .ends-at-two-thirds + .ends-at-one-third {
+    margin: 0 0 0 2%;
+    width: 32%;
+  }
+
+  .ends-at-one-quarter {
+    width: 48%;
+  }
+
+  .grid-within-grid-two-item > div, .ends-at-half {
+    width: 49%;
+  }
+  .grid-within-grid-six-item > div, .grid-within-grid-three-item > div, .grid-within-grid-three-item > div {
+    width: 31.3%;
+    margin: 0 2% 10px 0;
+    float: left;
+  }
+  .grid-within-grid-eight-item > div, .grid-within-grid-four-item > div {
+    width: 23%;
+    margin: 0 2% 2% 0;
+    float: left;
+  }
+  .grid-within-grid-eight-item > div:nth-child(2n), .grid-within-grid-four-item > div:nth-child(2n), .grid-within-grid-six-item > div:nth-child(2n) {
+    margin-right: 2%;
+  }
+  .grid-within-grid-eight-item > div:nth-child(4n), .grid-within-grid-six-item > div:nth-child(6n) {
+    margin-right: 0;
+  }
+
+  .grid-within-grid-one-item > div, .grid-within-grid-one-item > a {
+    width: 100%;
+    float:none; /* allows sidebar content to flow correctly without disrupting grid behaviour at smaller screen sizes */
+  }
+
+  .grid-within-grid-three-item > div {
+    width: 32%;
+    margin: 0 2% 10px 0;
+  }
+  .grid-within-grid-three-item > div:nth-child(3n) {
+    margin: 0 0 10px 0;
+  }
+
+  .footer-left {
+    min-height: 240px;
+  }
+  #footer-wrapper  >  .container  >  .row  >  .col, .ends-at-one-quarter:nth-child(3) {
+    margin-left: 0;
+  }
+
+}
+@media only screen and (min-width:1024px) {
+  .ends-at-one-quarter {
+    width: 23%;
+  }
+  .grid-within-grid-six-item > div {
+    width: 15%;
+  }
+
+}

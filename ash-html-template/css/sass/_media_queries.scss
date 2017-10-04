@@ -1,0 +1,617 @@
+/* ------------- Smartphone (landscape) and above ------------- */
+
+@media only screen and (min-width: 480px) {
+  /* News/events images on homepage */
+  .breather .news-image{
+    width:100%;
+    height:105px;
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+
+  /* Mega menu */
+  .mega-menu ul {
+    display: block;
+    margin: 0 0;
+  }
+  .mega-menu-group {
+    width: 48%;
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+
+  .mega-menu-group:nth-child(3) {
+    margin-left: 0;
+  }
+  .mega-menu-group:nth-child(5) {
+    clear: both;
+  }
+
+  .mega-menu-group div {
+    height: 100%;
+  }
+  /* hides secondary section homepage link at all sizes above smartphone */
+  .mega-menu li.mobileOnly {
+    display: none;
+  }
+  /* Turn off show/hide image for mega menu h3 for desktop */
+  .mega-menu h3 {
+    background-image: none;
+    padding-left: 2px;
+  }
+
+  /* Revised size for numbered icons */
+  #disc-menu li a {
+    font-size: 1.8em;
+    height: 54px;
+    width: 54px;
+  }
+  /* Revised logo size */
+  #logo-holder img {
+    width: 300px;
+  }
+
+  #logo-holder a:focus:after {
+    content: attr(title);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 0.85em;
+  }
+
+  /* Revised banner height for desktop */
+  .large {
+    min-height: 360px;
+  }
+
+  .feature-box .width-two-thirds {
+    width: 66%;
+  }
+  .feature-box .width-half, .research-guide-form form .field-row input {
+    width: 50%;
+  }
+  .feature-box .width-one-third {
+    width: 33%;
+  }
+  .feature-box .width-one-quarter {
+    width: 25%;
+  }
+  .width-full-to-one-quarter {
+    max-height: 100px !important;
+  }
+  .width-full-to-one-quarter a img {
+    margin-bottom: 0 !important;
+  }
+  /*
+  .box-featured-img {
+      width: 50%;
+      }
+      */
+  .inner-grid-column {
+    float: left !important;
+    padding: 0px;
+    margin-bottom: 5px !important;
+  }
+  .inner-grid-column h3 {
+    line-height: 1.3 !important;
+  }
+
+  /* Child list splits to half */
+  ul.child li {
+    width: 40%;
+    margin-right: 10%;
+    float: left;
+  }
+  .overlay-type-label {
+    margin: 180px 0 0 0;
+    float: left;
+    display: block;
+    height: auto;
+  }
+  .indicator li ul li:first-child {
+    width: 100%;
+    text-align: left;
+  }
+
+  ul.form-selectable li {
+    width: 24.8%;
+
+  }
+  /* Start of campaign boxes for homepage - 480px view */
+  .campaign-box input[type="email"] {
+    min-width: 210px !important;
+  }
+  /* End of campaign boxes for homepage - 480px view */
+
+  .fifth-width {
+    width: 49%;
+    height: 185px;
+  }
+
+  ul.form-selectable li {
+    width: 48.8%;
+  }
+
+  /* Start Research guide availability indicator - 480px view */
+  .indicator li ul li:first-child {
+    width: 100%;
+    text-align: left;
+  }
+  /* End Research guide availability indicator - 480px view */
+
+  /* Research guide commercial links */
+  .provider-label {
+    float: right;
+    display: inline;
+    width: auto;
+  }
+
+  /* inline banner styles */
+
+  .inline-banner .float-left{
+    width:70%;
+  }
+  .inline-banner .float-right{
+    width:30%;
+  }
+  .inline-banner .div-center{
+    text-align:center !important;
+  }
+
+  /* Start of Exec/Management additions - 480px view */
+  #index > .photo-extend:nth-child(3n) {
+    clear: none;
+    margin: 0 2% 2% 0;
+  }
+  #index > .photo-extend:nth-child(even) {
+    margin: 0 2% 2% 0;
+  }
+  /* End of Exec/Management additions - 480px view */
+
+}
+
+/* ------------- 7" tablet and above ------------- */
+
+@media only screen and (min-width: 600px) {
+
+
+  .fifth-width {
+    width: 32.3%;
+  }
+  ul.form-selectable li {
+    width: 24.8%;
+  }
+  /* Start of Exec/Management additions - 600px view */
+  #index > .photo-extend:nth-child(3n) {
+    clear: none;
+    margin: 0 2% 0 0;
+    /* End of Exec/Management additions - 600px view */
+  }
+}
+
+/* ------------- 10" tablet (portrait) and above ------------- */
+
+@media only screen and (min-width: 768px) {
+
+
+
+  /* Mega menu splits to 3rds */
+  .mega-menu-group {
+    width: 31.3%;
+    margin-left: 2%;
+  }
+  .entry-meta {
+    width: auto;
+  }
+
+  .mega-menu-group:nth-child(3) {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .mega-menu-group:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .mega-menu-group:nth-child(5) {
+    clear: none;
+  }
+
+  ul.triplets li, ul.quadruplets li {
+    width: 45%;
+  }
+  ul.child li a {
+    display: block;
+  }
+
+  .width-two-thirds, .two-thirds, .width-two-thirds-to-full {
+    width: 66%;
+  }
+  .one-third {
+    width: 33%;
+  }
+  /* Banner overlay splits to 3rds */
+  .overlay ul li {
+    width: 29%;
+    float: left;
+    border-right: 1px solid #999;
+    padding-right: 2%;
+  }
+  .overlay ul li:last-child {
+    border-right: 0;
+  }
+  /* Turn off mobile search, turn on desktop search */
+  #search-field-wrapper {
+    display: block;
+  }
+  #mobile-search-outer-wrapper {
+    display: none;
+  }
+  /* Turn off mobile mega menu button, turn on desktop mega menu button */
+  #mega-menu-pull-down, .pull-down {
+    display: block;
+  }
+  #mega-menu-mobile,
+  #search-expander {
+    display: none;
+  }
+  #logo-holder {
+    text-align: left;
+  }
+  #logo-holder img {
+    width: auto;
+    margin-left: 0;
+  }
+
+  #goTop {
+    background: url("http://nationalarchives.gov.uk/wp-content/themes/tna/images/global/icon-32-top.gif") center center no-repeat rgba(0, 0, 0, .66);
+    background-size: cover;
+    position: fixed;
+    top: 47%;
+    right: -100px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 5000;
+  }
+  #goTop:hover {
+    background: url("http://nationalarchives.gov.uk/wp-content/themes/tna/images/global/icon-32-top.gif") center center no-repeat rgba(0, 0, 0, .9);
+    background-size: cover;
+  }
+  .banner-over-box {
+    display: inline;
+    width: 30%;
+  }
+  .large {
+    /* rename for clarity */
+    min-height: 288px;
+  }
+
+  .feature-box .width-two-thirds, .feature-box .width-one-third {
+    width: 100%;
+  }
+  .feature-box .width-half, .width-full-to-half {
+    width: 50%;
+  }
+  .feature-box .width-one-quarter {
+    width: 25%;
+  }
+
+  h1 {
+    font-size: 2em; /* the h1 size is reduced for smaller screens */
+  }
+
+  /*
+  .breather a img {
+      width: 100%;
+      height:auto;
+  }
+
+  /* -- Styles for native WP audio player -- */
+  .mejs-container {
+    float: left;
+    margin: 0 0 10px 0;
+  }
+  .video-main {
+    width: 50%;
+  }
+  .overlay-type-label {
+    margin: 147px 0 0 0;
+    float: right;
+  }
+  .search-field-wrapper-medium input[type="text"] {
+    width: 284px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .float-left-to-right {
+    float: right;
+  }
+  .overlay-relative {
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* Start Research guide availability indicator - 768px view */
+  .indicator h3 {
+    padding: 0 2px 0 26px;
+  }
+  .indicator ul {
+    float: left;
+    margin: 0;
+    padding: 0 0 0 1.5em;
+    width: auto;
+  }
+  /* End Research guide availability indicator */
+
+  /* Start of campaign boxes for homepage - 768px view */
+  .campaign-box {
+    min-height: 180px;
+  }
+  .portillo {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/state-secrets/tna-portillo-homepage-banner.jpg') no-repeat top -10px;
+    background-size: cover;
+  }
+  .newsletter {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/state-secrets/enewsletter-homepage-banner.jpg') no-repeat top -10px;
+    background-size: cover;
+  }
+  /* End of campaign boxes for homepage - 768px view */
+
+  .fifth-width {
+    width: 23%;
+  }
+  .center-container {
+    margin: 0 auto;
+    width: 800px;
+  }
+  .center-container form {
+    width: 300px;
+    float: left;
+    display: block;
+  }
+  .search-box-container input {
+    width: 230px;
+    float: left;
+  }
+  .search-box-container p {
+    float: left;
+    margin: 4px 20px 0;
+    font-size: 1.2em;
+  }
+
+  .input-extended input[type="text"] {
+    min-width: 290px;
+  }
+  /* Start of Exec/Management additions - 768px view */
+  #index > .photo-extend:nth-child(3n) {
+    clear: none;
+    margin: 0;
+  }
+  /* End of Exec/Management additions - 768px view */
+}
+
+/* ------------- 10" tablet (landscape) and above ------------- */
+
+@media only screen and (min-width: 1024px) {
+  /* Mega menu */
+  .mega-menu-group {
+    width: 14.6%;
+    margin-left: 2%;
+  }
+  .mega-menu-group:nth-child(4) {
+    margin-left: 2%;
+  }
+  /* Revised size for numbered menu */
+  #numbered-menu li a {
+    font-size: 1.8em;
+    height: 54px;
+    width: 54px;
+  }
+  #disc-menu li a {
+    font-size: 2em;
+    height: 64px;
+    width: 64px;
+  }
+  ul.triplets li {
+    width: 33%;
+  }
+  ul.quadruplets li {
+    width: auto;
+    margin-right: 11.7%;
+  }
+
+  /* Inline image alignment */
+
+  .alignleft, .alignright {
+    width: 50% !important;
+    max-width: 420px;
+    height: auto;
+  }
+  .alignleft {
+    float: left;
+    margin: 0 2em 1em 0 !important;
+  }
+  .alignright {
+    float: right;
+    margin: 0 1em 1em 2em !important;
+  }
+  .aligncenter {
+    margin: 1em 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .third-width {
+    width: 33.3% !important;
+  }
+  .banner-over-box {
+    position: absolute;
+    right: 0;
+  }
+
+  .feature-box .width-two-thirds {
+    width: 66%;
+  }
+  .feature-box .width-half {
+    width: 50%;
+  }
+  .feature-box .width-one-third {
+    width: 33%;
+  }
+  .feature-box .width-one-quarter {
+    width: 25%;
+  }
+
+  .box-featured-img {
+    width: 180px;
+  }
+  /* Start Research guide availability indicator - 1024px view */
+
+  .indicator h3 {
+    margin-bottom: 0;
+  }
+  .indicator h3.active {
+    font-weight: bold;
+  }
+  .indicator h3 {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-all.png') no-repeat;
+    background-size: 23px;
+  }
+  .indicator h3.some {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-some.png') no-repeat;
+    background-size: 23px;
+  }
+  .indicator h3.none {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-availability-none.png') no-repeat;
+    background-size: 23px;
+  }
+  .indicator {
+    margin-bottom: 100px;
+  }
+  .indicator .indicator-description {
+    top: 51px;
+    position: absolute;
+    left: 0;
+  }
+  .indicator .item {
+    display: block;
+    width: 25%;
+    float: left;
+    height: 51px;
+  }
+  .indicator .active {
+    background: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/records/icon-up-arrow.png') no-repeat 60px bottom;
+  }
+  /* End Research guide availability indicator - 1024px view */
+
+  .fifth-width {
+    width: 24%;
+  }
+  .center-container form {
+    width: 400px;
+    float: left;
+    display: block;
+  }
+  .search-box-container input {
+    width: 350px;
+    float: left;
+  }
+
+  .input-extended input[type="text"] {
+    min-width: 400px;
+  }
+
+}
+
+/* ------------- Desktop and above ------------- */
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1240px;
+  }
+
+  .input-extended input[type="text"] {
+    min-width: 540px;
+  }
+}
+
+@media print {
+
+  body, h1, h2, h3, h4, h5, p, ul, ol {
+    font-family: 'Arial', Verdana, Helvetica,;
+  }
+  .no-print {
+    display: none !important;
+  }
+  #page-header, #footer-wrapper, #mega-menu {
+    display: none;
+  }
+  h1, h2, h3, h4, a:link {
+    background: transparent;
+    color: #000;
+    background: none;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h1 span, h2 span, h3 span, h1 span span, h2 span span, h3 span span {
+    color: #000;
+    background: transparent;
+    background-image: none !important;
+  }
+  .cookieNotice {
+    display: none;
+  }
+  #failover {
+    display: none;
+  }
+  .banner img, #newstitle img {
+    display: none;
+  }
+
+  .image-container, .large, .small {
+    height: auto;
+    min-height: initial;
+  }
+  .backstretch {
+    display: none !important;
+  }
+  div {
+    height: auto !important;
+  }
+  .container {
+    height: auto;
+  }
+  .overlay ul li {
+    margin: 0;
+  }
+
+  .float-right {
+    float: none;
+    display: block;
+  }
+  .breather {
+    padding: 0;
+  }
+  li {
+    list-style-type: disc;
+  }
+
+  a[href^="/"]:after {
+    content: " (https://www.nationalarchives.gov.uk" attr(href) ")";
+    font-size: 90%;
+  }
+
+  a[href^="http://"]:after, a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+  }
+  .indicator ul li.none-small, .indicator ul li.some-small, .indicator ul li.all-small {
+    border: solid 1px #000;
+    color: #000;
+  }
+}

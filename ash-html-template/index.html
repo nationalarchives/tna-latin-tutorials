@@ -16,27 +16,14 @@
     <meta property="og:image"
           content="http://www.nationalarchives.gov.uk/wp-content/uploads/sites/24/2016/06/logo-a-tna-600x315.jpg"/>
 
-    <!-- import from TNA site to get all the icons (arrows, search icon, etc.) -->
-    <link rel='stylesheet' id='tna-parent-styles-css'
-          href='http://nationalarchives.gov.uk/wp-content/themes/tna-base/css/base-sass.css.min?ver=1.9' type='text/css'
-          media='all'/>
-    <link rel='stylesheet' id='tna-child-styles-css'
-          href='css/home-sass.css'
-          type='text/css' media='all'/>
     <!--[if lte IE 9]>
-    <link rel='stylesheet' id='tna-child-ie9-styles-css' href='css/ie9.css'
+    <link rel='stylesheet' id='tna-child-ie9-styles-css' href='css/old/ie9.css'
           type='text/css' media='all'/>
     <![endif]-->
     <link rel='stylesheet' id='tna-google-fonts-css'
           href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%7CBitter&#038;ver=4.4.11'
           type='text/css' media='all'/>
-
-    <link rel='stylesheet' href="css/css.css">
-    <link rel='stylesheet' href="css/css-1.css">
-    <link rel='stylesheet' href="css/default.min.css">
-    <link rel='stylesheet' href="css/images.css">
-    <link rel='stylesheet' href="css/base-sass-1.css">
-    <link rel='stylesheet' href="css/new-styles.css">
+    <link rel='stylesheet' href="css/base-sass.css.min"/>
 
     <meta scheme="DCTERMS.URI" content="http://www.nationalarchives.gov.uk/" name="DC.identifier">
     <meta content="The National Archives - The National Archives" name="DC.title">
@@ -67,73 +54,68 @@
           href="http://www.nationalarchives.gov.uk/wp-includes/wlwmanifest.xml"/>
     <!-- Fav icon -->
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 
-    <header id="header" role="banner">
-        <a id="skip-to-main-content" href="#breadcrumb-holder">Skip to Main Content</a>
-        <div class="container ">
-            <div class="row">
-                <div class="col-xs-2 col-sm-5" id="logo-holder">
-                    <button aria-label="Toggle menu" id="mega-menu-mobile"></button>
-
-                    <a href="http://www.nationalarchives.gov.uk" title="Go to The National Archives homepage"
-                       class="visible-lg visible-md visible-sm">
-                        <img src="images/logo-white.png"
-                             alt="The National Archives" class="img-responsive">
-                    </a>
+    <div id="page-header" role="banner"><a id="skip-to-main-content" href="#breadcrumb-holder">Skip to Main Content</a>
+        <section class="row container">
+            <article class="col starts-at-full ends-at-half clr" id="logo-holder">
+                <div id="mega-menu-mobile">
+                    <button aria-label="Toggle menu"></button>
                 </div>
-                <div class="col-xs-8 col-sm-2" id="mobile-logo-holder">
-                    <button title="Main menu" aria-label="Toggle menu" id="mega-menu-pull-down" class="hidden-xs"><span>Menu</span>
-                    </button>
+                <a href="/" title="Go to The National Archives homepage"> <img
+                        src="http://nationalarchives.gov.uk/wp-content/themes/tna/images/global/logo-white.png"
+                        alt="The National Archives" id="logo"/> </a>
+            </article>
+            <article class="col starts-at-full ends-at-half clr">
+                <form action="http://nationalarchives.gov.uk/search/results" method="get" id="mobileGlobalSearch">
+                    <div id="mobile-search-outer-wrapper">
+                        <div id="mobile-search-wrapper">
+                            <input type="text" id="mobile-search-field" placeholder="Search our website..." name="_q"
+                                   required aria-required="true">
+                            <input type="submit" value="">
+                        </div>
+                        <div id="changeDestination">
+                            <input checked type="radio" class="mobileSearchDestinationOption" name="searchDestination"
+                                   id="websiteSearch" data-target="http://nationalarchives.gov.uk/search/results"
+                                   data-placeholder="Search our website..." data-fieldName="_q"/>
+                            <label for="websiteSearch">Search our website</label>
+                            <input type="radio" class="mobileSearchDestinationOption" name="searchDestination"
+                                   id="catalogueSearch" data-target="http://discovery.nationalarchives.gov.uk/results/r"
+                                   data-placeholder="Search our records..." data-fieldName="_q"/>
+                            <label for="catalogueSearch">Search our records</label>
+                        </div>
+                    </div>
+                </form>
 
-                    <a href="http://www.nationalarchives.gov.uk" title="Go to The National Archives homepage"
-                       class="hidden-lg hidden-md hidden-sm">
-                        <img src="images/logo-white.png"
-                             alt="The National Archives" class="img-responsive">
-                    </a>
-                </div>
-                <div class="col-xs-2 col-sm-5" id="search-field-wrapper">
-                    <form action="http://nationalarchives.gov.uk/search/results" method="get" id="globalSearch"
-                          role="search" class="hidden-xs">
+                <div id="search-field-wrapper">
+                    <form action="http://nationalarchives.gov.uk/search/results" method="get" id="globalSearch">
                         <span id="scope-selector">&nbsp;</span>
                         <input type="text" class="search-field" placeholder="Search our website..." id="tnaSearch"
-                               name="_q" required="" aria-required="true">
+                               name="_q" required aria-required="true">
                         <input type="submit" class="search-button" id="search-button" value="">
                     </form>
-                    <ul id="search-selector">
-                        <li><a title="Search our website" href="#" class="formDestinationChanger"
+                    <ul id="search-options">
+                        <li><a href="#" class="formDestinationChanger"
                                data-target="http://nationalarchives.gov.uk/search/results"
-                               data-placeholder="Search our website..." data-fieldname="_q" role="button"
+                               data-placeholder="Search our website..." data-fieldName="_q" role="button"
                                aria-label="Change form destination to search the website">Search our website</a></li>
-                        <li><a title="Search our catalogue for records" href="#" class="formDestinationChanger"
-                               data-target="http://discovery.nationalarchives.gov.uk/results/r"
-                               data-placeholder="Search our records..." data-fieldname="_q" role="button"
+                        <li><a href="#" class="formDestinationChanger"
+                               data-target="http://discovery.nationalarchives.gov.uk/SearchUI/s/res"
+                               data-placeholder="Search our records..." data-fieldName="_q" role="button"
                                aria-label="Change form destination to search the catalogue">Search our records</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="row hidden-lg hidden-md hidden-sm">
-                <div class="col-md-12">
-                    <button class="search-expander">&nbsp;</button>
-                    <form method="get" id="mobileGlobalSearch" style="display: none;" name="responsiveSearch"
-                          action="/search/results" role="search">
-                        <div class="input-group">
-                            <input type="text" placeholder="Search our website..." required="" aria-required="true"
-                                   name="QueryText" value="">
-                            <span class="input-group-addon"><input type="submit" value=""></span>
-                        </div>
-                        <label>
-                            <input name="radioSearchGroup" value="search_website" checked="" type="radio"> Search our
-                            website
-                        </label>
-                        <label>
-                            <input name="radioSearchGroup" value="search_records" type="radio"> Search our records
-                        </label>
-                    </form>
+            </article>
+        </section>
+        <section class="row pull-down">
+            <article class="col starts-at-full clr">
+                <div id="mega-menu-pull-down">
+                    <button aria-label="Toggle menu">Menu</button>
                 </div>
-            </div>
-        </div>
-    </header>
+            </article>
+        </section>
+    </div>
     <nav id="nav" role="navigation" style="display: block;">
         <div class="mega-menu clearfix">
             <ul class="main-ul">
@@ -255,11 +237,6 @@
                         <li><a href="http://www.nationalarchives.gov.uk/imagelibrary/">Image library</a></li>
                         <li><a href="http://www.nationalarchives.gov.uk/blog/">Blog</a></li>
                         <li><a href="http://www.nationalarchives.gov.uk/media/">Podcasts and videos</a></li>
-                        <li><a href="http://www.nationalarchives.gov.uk/contact-us/">Contact us</a></li>
-                        <li class="imgContent"><a href="http://nationalarchives.gov.uk/first-world-war/"
-                                                  title="First World War 100 - read about our centenary programme"><img
-                                src="//www.nationalarchives.gov.uk/images/home/menu-first-world-war-b.jpg"
-                                alt="Explore First World War 100" class="img-responsive"></a></li>
                     </ul>
                 </li>
             </ul>
@@ -304,7 +281,8 @@
 <div class="container">
     <div class="newsletter-template">
         <div class="news-icon">
-            <img src="images/tna-newsletter-icon.png" alt="The National Archives Newsletter Icon">
+            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/tna-newsletter-icon.png"
+                 alt="The National Archives Newsletter Icon">
         </div>
 
         <div class="news-content" id="newsletterAccessibility">
@@ -329,178 +307,180 @@
     </div>
 </div>
 
-
-</body>
-
-<footer id="footer" class="breather-top-bottom" role="contentinfo">
+<div id="footer-wrapper">
     <div class="container">
         <div class="row">
-            <div class="footer-col col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="row">
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-12 col-lg-12">
-                        <address>
-                            The National Archives<br>
-                            Kew, Richmond, Surrey,<br>
-                            TW9 4DU
-                        </address>
-                        Tel: <a class="tel" href="tel:+4402088763444">+44 (0) 20 8876 3444</a>
-                    </div>
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-12 col-lg-12">
-                        <h4>Standard opening times</h4>
-                        <div class="opening-times">
-                            <div class="open_table">
-                                <div class="open_tableBody">
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Monday</div>
-                                        <div class="open_tableCell">Closed</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Tuesday</div>
-                                        <div class="open_tableCell">09:00 – 19:00</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Wednesday</div>
-                                        <div class="open_tableCell">09:00 – 17:00</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Thursday</div>
-                                        <div class="open_tableCell">09:00 – 19:00</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Friday</div>
-                                        <div class="open_tableCell">09:00 – 17:00</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Saturday</div>
-                                        <div class="open_tableCell">09:00 – 17:00</div>
-                                    </div>
-                                    <div class="open_tableRow">
-                                        <div class="open_tableCell">Sunday</div>
-                                        <div class="open_tableCell">Closed</div>
-                                    </div>
+            <div class="col starts-at-full ends-at-one-quarter footer-col clr">
+                <div class="footer-left">
+                    <address>
+                        The National Archives<br>
+                        Kew, Richmond, Surrey,<br>
+                        TW9 4DU
+                    </address>
+                    Tel: +44 (0) 20 8876 3444
+                </div>
+                <div class="footer-left">
+                    <h4>Standard opening times</h4>
+                    <div class="opening-times">
+                        <div class="open_table">
+                            <div class="open_tableBody">
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Monday</div>
+                                    <div class="open_tableCell">Closed</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Tuesday</div>
+                                    <div class="open_tableCell">09:00 &ndash; 19:00</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Wednesday</div>
+                                    <div class="open_tableCell">09:00 &ndash; 17:00</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Thursday</div>
+                                    <div class="open_tableCell">09:00 &ndash; 19:00</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Friday</div>
+                                    <div class="open_tableCell">09:00 &ndash; 17:00</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Saturday</div>
+                                    <div class="open_tableCell">09:00 &ndash; 17:00</div>
+                                </div>
+                                <div class="open_tableRow">
+                                    <div class="open_tableCell">Sunday</div>
+                                    <div class="open_tableCell">Closed</div>
                                 </div>
                             </div>
                         </div>
-                        <a href="http://nationalarchives.gov.uk/about/visit-us/opening-times/">Full opening times</a>
                     </div>
+                    <a href="http://nationalarchives.gov.uk/about/visit-us/opening-times/">Full opening times</a>
                 </div>
             </div>
-            <div class="footer-col col-xs-12 col-sm-12 col-md-6">
-                <div class="row">
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-6">
-                        <h4>Find out more</h4>
-                        <ul>
-                            <li><a href="http://nationalarchives.gov.uk/contact-us/">Contact us</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/about/press-room/">Press room</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/about/jobs/">Jobs and careers</a></li>
-                            <li>
-                                <a href="http://nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/">Friends
-                                    of The National
-                                    Archives</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-6">
-                        <h4>Websites</h4>
-                        <ul>
-                            <li><a href="http://blog.nationalarchives.gov.uk/">Blog</a></li>
-                            <li><a href="http://media.nationalarchives.gov.uk/">Podcasts and videos</a></li>
-                            <li><a href="http://bookshop.nationalarchives.gov.uk/">Bookshop</a></li>
-                            <li><a href="https://images.nationalarchives.gov.uk/">Image library</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/webarchive/">UK Government Web Archive</a></li>
-                            <li><a href="http://www.legislation.gov.uk/" target="_blank" rel="noopener noreferrer">Legislation.gov.uk</a>
-                            </li>
-                            <li><a href="https://www.thegazette.co.uk/" target="_blank" rel="noopener noreferrer">The
-                                Gazette</a></li>
-                        </ul>
-                    </div>
+
+            <div class="col starts-at-full ends-at-one-quarter clr">
+                <div class="footer-left">
+                    <h4>Find out more</h4>
+                    <ul>
+                        <li><a href="http://nationalarchives.gov.uk/contact-us/">Contact us</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/about/press-room/">Press room</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/about/jobs/">Jobs and careers</a></li>
+                        <li>
+                            <a href="http://nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/">Friends
+                                of The National Archives</a></li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-6">
-                        <h4>Site help</h4>
-                        <ul>
-                            <li><a href="http://nationalarchives.gov.uk/help/">Help</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/help/web-accessibility/">Accessibility</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-6">
-                        <h4>Legal</h4>
-                        <ul>
-                            <li><a href="http://nationalarchives.gov.uk/legal/">Terms of use</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/legal/privacy.htm">Privacy policy</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/legal/cookies.htm">Cookies</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/about/freedom-of-information/">Freedom of
-                                Information</a></li>
-                            <li><a href="http://nationalarchives.gov.uk/about/our-role/transparency/">Transparency</a>
-                            </li>
-                            <li><a href="http://nationalarchives.gov.uk/legal/our-fees.htm">Our fees</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-left">
+                    <h4>Site help</h4>
+                    <ul>
+                        <li><a href="http://nationalarchives.gov.uk/help/">Help</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/help/web-accessibility/">Accessibility</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-col col-xs-12 col-sm-12 col-md-3">
-                <div class="row">
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-12">
-                        <h4>Follow us</h4>
-                        <div class="follow-us">
-                            <a href="https://twitter.com/@UKNatArchives" title="Follow us on Twitter" target="_blank"
-                               rel="noopener noreferrer">
-                                <img src="images/social/twitter.png" alt="Twitter logo"></a>
-                            <a href="https://www.youtube.com/c/TheNationalArchivesUK" title="Follow us on YouTube"
-                               target="_blank" rel="noopener noreferrer">
-                                <img src="images/social/youtube-play.png" alt="YouTube logo"></a>
-                            <a href="https://www.flickr.com/photos/nationalarchives" title="Follow us on Flickr"
-                               target="_blank" rel="noopener noreferrer">
-                                <img src="images/social/flickr.png" alt="Flickr logo"></a>
-                            <a href="https://www.facebook.com/TheNationalArchives" title="Follow us on Facebook"
-                               target="_blank" rel="noopener noreferrer">
-                                <img src="images/social/facebook.png" alt="Facebook logo"></a>
-                            <a href="http://www.nationalarchives.gov.uk/rss/" title="Follow us via RSS">
-                                <img src="images/social/rss.png" alt="RSS logo"></a>
-                        </div>
-                    </div>
 
-                    <div class="footer-col col-xs-12 col-sm-6 col-md-12">
-                        <h4>Featured Flickr image</h4>
-                        <p id="flickr-caption">Identification photos of known suffragists in 1914 (<a
-                                href="https://www.flickr.com/photos/nationalarchives/36626863685"
-                                title="External website - opens in new window" target="_blank">AR 1/528</a>)</p>
-                        <p id="flickr-image">
-                            <a target="_blank" title="External website - opens in a new window"
-                               href="https://www.flickr.com/photos/nationalarchives/36626863685"
-                               rel="noopener noreferrer">
-                                <img class="img-responsive" src="images/global/ar-1-528-suffragettes-1-10.jpg"
-                                     alt="Identification photos of known suffragists in 1914">
-                            </a>
-                        </p>
+            <div class="col starts-at-full ends-at-one-quarter clr">
+                <div class="footer-left">
+                    <h4>Websites</h4>
+                    <ul>
+                        <li><a href="http://blog.nationalarchives.gov.uk/">Blog</a></li>
+                        <li><a href="http://media.nationalarchives.gov.uk/">Podcasts and videos</a></li>
+                        <li><a href="http://bookshop.nationalarchives.gov.uk/">Bookshop</a></li>
+                        <li><a href="https://images.nationalarchives.gov.uk/">Image library</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/webarchive/">UK Government Web Archive</a></li>
+                        <li><a href="http://www.legislation.gov.uk/" target="_blank" rel="noopener noreferrer">Legislation.gov.uk</a>
+                        </li>
+                        <li><a href="https://www.thegazette.co.uk/" target="_blank" rel="noopener noreferrer">The
+                            Gazette</a></li>
+                    </ul>
+                </div>
+                <div class="footer-left">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="http://nationalarchives.gov.uk/legal/">Terms of use</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/legal/privacy.htm">Privacy policy</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/legal/cookies.htm">Cookies</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/about/freedom-of-information/">Freedom of
+                            Information</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/about/our-role/transparency/">Transparency</a></li>
+                        <li><a href="http://nationalarchives.gov.uk/legal/our-fees.htm">Our fees</a></li>
+                    </ul>
+                </div>
+            </div>
 
+            <div class="col starts-at-full ends-at-one-quarter clr">
+                <div class="footer-left">
+                    <h4>Follow us</h4>
+                    <div class="follow-us">
+                        <a href="https://twitter.com/@UKNatArchives" title="Follow us on Twitter" target="_blank">
+                            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/twitter.png"
+                                 alt="Twitter logo"></a>
+                        <a href="https://www.youtube.com/c/TheNationalArchivesUK" title="Follow us on YouTube"
+                           target="_blank">
+                            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/youtube-play.png"
+                                 alt="YouTube logo"></a>
+                        <a href="https://www.flickr.com/photos/nationalarchives" title="Follow us on Flickr"
+                           target="_blank">
+                            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/flickr.png"
+                                 alt="Flickr logo"></a>
+                        <a href="https://www.facebook.com/TheNationalArchives" title="Follow us on Facebook"
+                           target="_blank">
+                            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/facebook.png"
+                                 alt="Facebook logo"></a>
+                        <a href="http://www.nationalarchives.gov.uk/rss/" title="Follow us via RSS">
+                            <img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/rss.png"
+                                 alt="RSS logo"></a>
                     </div>
+                </div>
+                <div class="footer-left">
+                    <h4>Featured Flickr image</h4>
+                    <p id="flickr-caption" class="caption">Patented textile pattern by Christopher Dresser. <a
+                            target="_blank" title="External website - opens in a new window"
+                            href="http://www.flickr.com/photos/nationalarchives/3208858799/in/set-72157608416657334/">EXT
+                        9/104</a></p>
+                    <p id="flickr-image"><a target="_blank" title="External website - opens in a new window"
+                                            href="http://www.flickr.com/photos/nationalarchives/3208858799/in/set-72157608416657334/">
+                        <img src="http://www.nationalarchives.gov.uk/images/global/featured-flickr-ext-9-104.jpg"
+                             alt="Patented textile pattern by Christopher Dresser."></a></p>
                 </div>
             </div>
         </div>
 
+        <!-- end row -->
         <div class="row footer-base">
-            <div class="col-xs-12 col-sm-9 col-md-9 ogl">
-                <a title="External website - opens in a new window"
-                   href="http://www.nationalarchives.gov.uk/doc/open-government-licence/"> <img
-                        alt="Open Government License logo" src="images/logo-ogl.png">
-                </a>
+            <div class="left">
+                <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/"> <img
+                        alt="Open Government License logo"
+                        src="http://www.nationalarchives.gov.uk/images/global/logo-ogl.png"/> </a>
                 <p>All content is available under the <a
-                        href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open
-                    Government Licence v3.0</a>, <br>except where otherwise stated </p>
+                        href="http://www.nationalarchives.gov.uk/doc/open-government-licence/">Open Government Licence
+                    v3.0</a>, <br/>except where otherwise stated </p>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 text-right">
-                <a title="External website - opens in a new window" href="http://gov.uk/" target="_blank"
-                   rel="noopener noreferrer"> <img alt="GOV.UK logo" src="images/gov-uk.png"> </a>
+            <div class="right">
+                <a class="footer-base-external-branding-gov-logo-adjust"
+                   title="External website - opens in a new window" href="http://gov.uk/" target="_blank"> <img
+                        alt="GOV.UK logo" src="http://www.nationalarchives.gov.uk/images/global/gov-uk.png"/> </a>
             </div>
         </div>
+        <!-- end row external branding -->
     </div>
+    <!-- end container -->
+</div>
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="http://nationalarchives.gov.uk/wp-content/themes/tna/scripts/jquery-1.10.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.min.js"></script>
+<![endif]-->
 
-    <script type='text/javascript'
-            src='http://nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/jquery-1.11.3.min.js?ver=1.11.3'></script>
-    <script src="./menu.js"></script>
+<!--[if gte IE 9]><!-->
+<script src="http://nationalarchives.gov.uk/wp-content/themes/tna/scripts/jquery-2.0.3.min.js"></script>
+<!--<![endif]-->
 
-</footer>
-
-
+<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/mega-menu.js"></script>
+<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-run-on-page-load.js?20170411"></script>
+<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-definitions.js"></script>
+<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/tna-bindings.js"></script>
+<script src="http://www.nationalarchives.gov.uk/wp-content/themes/tna/scripts/modernizr.min.js"></script>
+<script src="./hide-menu-on-load.js"></script>
+</body>

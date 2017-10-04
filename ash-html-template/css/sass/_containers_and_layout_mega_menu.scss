@@ -1,0 +1,79 @@
+
+/* Mega-menu container */
+.mega-menu {
+  padding: 0.5em 1em 0 1em;
+  position: relative;
+  z-index: 1;
+  background-color: #405480;
+  color: #EEEEEE;
+}
+
+.js .mega-menu {
+  display: none;
+}
+
+/* Turn on mega-menu container for <noscript >  alternative */
+noscript .mega-menu {
+  display: block;
+}
+/* Custom mega menu h3 heading (which includes show/hide facility at mobile view) */
+.mega-menu h3 {
+  background: url("http://nationalarchives.gov.uk/wp-content/themes/tna/global/plus.png") no-repeat 5px 12px;
+  padding: 5px 5px 5px 22px;
+  cursor: pointer;
+  display: block;
+  text-shadow: none;
+}
+.mega-menu h3.expanded {
+  background-image: url("http://nationalarchives.gov.uk/wp-content/themes/tna/global/minus.png");
+}
+
+/* Custom mega menu list style */
+.mega-menu ul {
+  margin: 10px 0;
+  list-style: none;
+}
+.mega-menu li {
+  font-size: 0.9em;
+  list-style-image: none;
+  border-top: 1px dotted #192132;
+}
+.mega-menu li:first-child {
+  border-top: 0;
+}
+.mega-menu li:last-child {
+  border-bottom: 0;
+}
+/* Custom mega menu link */
+.mega-menu a {
+  color: #fff;
+  display: block;
+  padding: 4px;
+}
+/* Custom mega menu paragraph */
+.mega-menu p {
+  font-size: 0.9em;
+}
+.mega-menu ul {
+  display: none;
+  padding-bottom: 10px;
+}
+.mega-menu span {
+  background-image: none;
+}
+/* Add images to mega menu */
+.mega-menu img {
+  max-width: 100%;
+}
+.mega-menu img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+/* for embedded audiovisual players a bottom margin is required */
+#player {
+  margin: 0 0 1em 0;
+}
+.todayOpen {
+  background: #fff;
+  padding: .25em;
+}

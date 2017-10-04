@@ -1,0 +1,275 @@
+/* ------------- 4.1 GLOBAL ------------- */
+
+/* Centering container */
+.container {
+  margin: 0 auto;
+  width: 94%;
+}
+/* Padding container */
+.breather {
+  padding: 20px;
+}
+
+/* Background container */
+.box {
+  background: #fff;
+  position: relative;
+}
+
+.border-top {
+  border-top: 2px solid #ddd;
+}
+.border-bottom {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Create a seperator illusion */
+.separator {
+  border-bottom: 20px solid #efefef;
+}
+/* Positioning modules */
+.float-left, .float-left-to-right {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.position-bottom-left, .position-bottom-right, .position-top-right, .position-top-left, .position-top, .position-bottom, .position-bottom-right-image {
+  position: absolute;
+}
+.position-bottom-left {
+  left: 5px;
+  bottom: 5px;
+}
+.position-bottom-right {
+  right: 5px;
+  bottom: 5px;
+}
+.position-top-right,
+.position-top-left {
+  right: 5px;
+  top: 5px;
+}
+.position-top {
+  top: 5px;
+}
+.position-bottom {
+  bottom: 5px;
+}
+.position-relative {
+  position: relative;
+}
+.position-bottom-right-image {
+  top: 123px;
+  right: 5px;
+}
+/* Width modules */
+.width-full-to-half,
+.width-full,
+.width-two-thirds,
+.width-one-third,
+.size-full /* for WP images */ {
+  width: 100%;
+}
+
+.width-two-thirds-to-full {
+  width:66.6%;
+}
+.width-half, .width-half-to-full {
+  width: 50%;
+}
+
+.width-one-quarter {
+  width: 25%;
+}
+/* -- Padding modules -- */
+
+/* padding zero - if element requires padding please add to its initial instance and remove from this array */
+
+.grid-within-grid-eight-item,
+.grid-within-grid-four-item,
+.grid-within-grid-six-item,
+.grid-within-grid-three-item,
+.grid-within-grid-two-item,
+.grid-within-grid-one-item,
+ul.no-bullet,
+#account-controls ul,
+#footer-wrapper ul,
+.footer-base .right,
+.image-container,
+.breather  >  h2:first-child,
+.breather  >  h3:first-child,
+.overlay ul,
+.statistic,
+.statistic-wide,
+#goTop,
+.pad-none,
+.ends-at-two-thirds .feature-box > .breather  {
+  padding: 0 !important;
+}
+.pad-small {
+  padding: 5px !important;
+}
+.pad-medium {
+  padding: 10px !important;
+}
+.pad-large {
+  padding: 20px !important;
+}
+/* Top */
+.pad-top-small {
+  padding-top: 5px !important;
+}
+.pad-top-medium {
+  padding-top: 10px !important;
+}
+.pad-top-large {
+  padding-top: 20px !important;
+}
+/* Bottom */
+.pad-bottom-small {
+  padding-bottom: 5px !important;
+}
+.pad-bottom-medium {
+  padding-bottom: 10px !important;
+}
+.pad-bottom-large {
+  padding-bottom: 20px !important;
+}
+
+/* Horizontal only */
+.pad-horizontal-small {
+  padding: 0 5px !important;
+}
+.pad-horizontal-medium {
+  padding: 0 10px !important;
+}
+.pad-horizontal-large {
+  padding: 0 20px !important;
+}
+
+/* -- Margin modules -- */
+
+/* margin zero - if element requires margins please add to its initial instance, into media queries as required or apply margin class to semantic element in template - then remove from this array */
+
+
+ul.child, ul.sibling, ul.triplets, ul.quadruplets,
+#account-controls ul,
+#page-header,
+#search-field-wrapper input[type="submit"], #mobile-search-wrapper input[type="submit"],
+#search-options li,
+.mega-menu h3,
+.mega-menu li,
+.mega-menu img,
+#footer-wrapper li,
+#footer-wrapper p img,
+.footer-base .left p,
+.image-container,
+.image-container h2,
+.heading-holding-banner h1,
+.heading-holding-banner h2,
+.image-description p,
+.pictorial-list,
+.todayOpen p,
+.entry-meta,
+.inner-grid-column,
+.archive-btn a:link,.archive-btn a:active,.archive-btn a:focus, .archive-btn a:visited,
+#goTop,
+.margin-none p,
+.margin-none,
+.ends-at-two-thirds .accordion  >  h2, .ends-at-two-thirds .accordion  >  h3 {
+  margin: 0;
+}
+.margin-small {
+  margin: 5px !important;
+}
+.margin-medium {
+  margin: 10px !important;
+}
+.margin-large {
+  margin: 20px !important;
+}
+/* Top */
+.margin-top-small {
+  margin-top: 5px !important;
+}
+.margin-top-medium {
+  margin-top: 10px !important;
+}
+.margin-top-large {
+  margin-top: 20px !important;
+}
+/* Bottom */
+.margin-bottom-small {
+  margin-bottom: 5px !important;
+}
+.margin-bottom-medium {
+  margin-bottom: 10px !important;
+}
+.margin-bottom-large {
+  margin-bottom: 20px !important;
+}
+/* Right */
+.margin-right-small {
+  margin-right: 5px !important;
+}
+.margin-right-medium {
+  margin-right: 10px !important;
+}
+.margin-right-large {
+  margin-right: 20px !important;
+}
+/* Left */
+.margin-left-small {
+  margin-left: 5px;
+}
+.margin-left-medium {
+  margin-left: 10px;
+}
+
+.margin-left-large, .feature-box > ul li {
+  margin-left: 20px;
+}
+
+/* Banner container and heights */
+.banner {
+  position: relative;
+  margin-bottom: 2%;
+  background-color: #ddd;
+  z-index: 3000;
+}
+.banner h1 {
+  display:block;
+  margin: 10px 0;
+}
+.large {
+  min-height: 400px;
+}
+.small {
+  min-height: 288px;
+}
+/* Clears */
+.clear-both {
+  clear: both;
+}
+
+.tna-notification-banner {
+  background-color: #fce45c;
+  margin: 0;
+  padding: 0.25em 0;
+  p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+  .notice {
+    margin: 0.3em 0;
+    strong.title {
+      background-color: #fff;
+      text-transform: uppercase;
+      padding: 0 0.4em;
+      margin-right: 1em;
+    }
+  }
+}

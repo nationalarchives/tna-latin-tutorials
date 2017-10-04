@@ -2,5 +2,5 @@
 
 This template is based off of the [tna](https://github.com/nationalarchives/tna) WordPress theme.
 
-It relies on TNA's live site for linking to javascript and images.
+It relies on TNA's live site for linking to images.
 

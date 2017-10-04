@@ -1,0 +1,73 @@
+/* Footer container */
+#footer-wrapper {
+  background-image: url('http://nationalarchives.gov.uk/wp-content/themes/tna/images/global/footer-background.png');
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-position: -6em 20px;
+  color: #FCFCFC;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* Custom footer h4 headings  */
+#footer-wrapper h4 {
+  margin: 0 0 .5em 0;
+  color: #fff;
+}
+/* Custom footer lists - look to see if all properties are needed */
+#footer-wrapper ul {
+  margin-top: 10px;
+}
+#footer-wrapper li {
+  list-style-image: none;
+  list-style-type: none;
+  padding: 4px 0;
+  font-size: .9em;
+  border-top: 1px dotted #666;
+}
+#footer-wrapper li:first-child {
+  border-top: none;
+}
+/* Custom footer links */
+#footer-wrapper a {
+  color: #FCE45C;
+}
+
+.footer-left a {
+  display: block;
+}
+#flickr-caption a {
+  display: inline;
+}
+/* Add images to footer */
+#footer-wrapper img {
+  max-width: 80%;
+}
+#footer-wrapper p img {
+  max-width: 95%;
+}
+/* Footer base container */
+.footer-base {
+  border-top: 1px dotted #555;
+  padding: 20px 0 0 0;
+  font-size: .85em;
+}
+/* Footer base column (left) */
+.footer-base .left {
+  float: left;
+  width: 75%;
+}
+.footer-base .left img {
+  float: left;
+  margin: 5px 25px 10px 0;
+}
+.footer-base .left p {
+  display: block;
+  float: left;
+}
+/* Footer base column (right) */
+.footer-base .right {
+  float: right;
+  width: 25%;
+  text-align: right;
+  margin: -10px -10px 0 0; /*adjustments to align with OGL logo on left hand side */
+}

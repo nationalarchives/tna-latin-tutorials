@@ -1,0 +1,1825 @@
+/* News/events images on homepage */
+.breather .news-image{
+  width:100%;
+  height:180px;
+  overflow: hidden;
+  background-size:cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+
+/* Large font-size */
+.large-text, .text-large { /* replace large-text with text-large if still in use, then remove */
+  font-size: 1.25em;
+}
+
+.text-small { /* apply to headings when a smaller size is more appropriate */
+  font-size: .95em;
+  line-height: 1.4;
+}
+/* Reduced font-size and captions */
+.subtext, .caption, .text-smallest { /* rename subtext to text-smallest */
+  font-size: .85em;
+  letter-spacing: 0.025em;
+}
+
+.text-175pc {
+  font-size: 175%; /* surpass this by creating a class to apply to all h1 that are BRIEF and independent of anything else (NOT titles of records) and manually inputted */
+}
+.wp-caption {
+  margin-bottom: 1em;
+  margin-left: 0;
+  max-width: 96%;
+  text-align: center;
+}
+.wp-caption img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.wp-caption-text {
+  position: relative;
+  font-size: .8em;
+  color: #666666;
+  clear: both;
+  margin:.5em;
+}
+/* Highlight important information */
+.important {
+  color: #DD322D; /* check palette */
+}
+/* Strapline */
+.strapline {
+  background-color: #fff;
+  float: left;
+  margin: -8px 10px 0 0;
+  padding: 5px 10px;
+}
+/* Add an image to a content box */
+.image-container {
+  background-color: #ddd !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  height: 180px;
+}
+.ends-at-one-third a + p {
+  margin-top:10px; /* primarily for paragraphs under image containers without sub-headings */
+}
+
+/* Used for source images in Education lessons */
+.thumbnail-container {
+  background-size: cover;
+  background-position: center;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #008484;
+}
+
+.thumbnail-container-lrg {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+.spinner {
+  position : fixed;
+  width : 100%;
+  height : 100%;
+  top : 0;
+  left : 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:64px;
+  background-color: rgba(255,255,255,0.5);
+  background-image: url('http://nationalarchives.gov.uk/images/global/ajax-loader.gif'), url('http://nationalarchives.gov.uk/images/global/icon-64-white.png');
+  z-index:5000;
+}
+
+.preload {
+  background-repeat: no-repeat;
+  background-position: -9999px -9999px;
+  background-image: url('http://nationalarchives.gov.uk/images/global/ajax-loader.gif'), url('http://nationalarchives.gov.uk/images/global/icon-64-white.png');
+}
+
+.portrait {
+  height: 360px;
+}
+.portrait img {
+  height: 100%;
+}
+.landscape img {
+  width: 100%;
+}
+
+/* Records search */
+.search-button-medium {
+
+  width: 40px !important;
+  height: 40px !important;
+  background: url("http://nationalarchives.gov.uk/images/global/search-white.png") no-repeat center;
+  border-radius: 0;
+}
+/* Emphasised text used for first sentence/paragraph on page */
+
+p.standfirst {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.two-thirds {
+  width: 90%; /* only applied to paragraph classes - do not apply to containers*/
+}
+
+/* Custom heading styles */
+
+
+
+
+h1  >  span, h2  >  span, h3  >  span {
+  background-image: url('http://nationalarchives.gov.uk/images/global/heading-flourish.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 14px;
+  margin-left: -10px;
+}
+
+/* Custom heading spans to add accompanying padding and color */
+h1  >  span  >  span, h2  >  span  >  span, h3  >  span  >  span {
+  padding: 4px 10px 4px 10px;
+  display: inline-block;
+  background-color: #405480;
+  color: #fff;
+  line-height: 125%;
+}
+h1  >  span  >  span a:link, h2  >  span  >  span a:link, h1  >  span  >  span a:hover, h2  >  span  >  span a:hover, h1  >  span  >  span a:visited, h2  >  span  >  span a:visited, a > .image-container  >  h2  >  span  >  span, a  >  .heading-holding-banner  >  h2  >  span  >  span {
+  color: #fff;
+  background-image: url("http://nationalarchives.gov.uk/images/global/icon-24-heading-link.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding-right: 32px;
+}
+h1 span.heading-constant	{
+  display: block;
+  margin: 10px 0 -10px 0;
+  background: #fff;
+  color: #333;
+  font-size: 1.35em;
+  letter-spacing: -.025em;
+
+
+}
+
+
+div + h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.research-guide h1, .research-guide-indepth h1	{
+  background: url('http://nationalarchives.gov.uk/images/global/dot-grey.png'); /* Remove when id specific backgrounds are introduced */
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+.research-guide #primary-content h2,
+.research-guide-indepth #primary-content h2,
+.research-guide-indepth .feature-box + h2 {
+  margin-top: 0;
+}
+.research-guide h1 + .breather, .research-guide-indepth h1 + .breather {
+  padding: 0 !important;
+  margin: 10px 20px;
+  overflow: auto;
+}
+.research-guide h2.indicator, .research-guide-indepth h2.indicator	{
+  background: #405480;
+  color: #fff;
+  font-family: 'Open sans';
+  margin: 0 !important;
+  padding: 5px 10px !important;
+  font-size: 1em;
+  width: auto; /*prevents padding pushing class outside of breather */
+}
+
+.image-container h2 {
+  display: block;
+  padding-top: 10px;
+}
+
+a > .image-container  >  h2  >  span  >  span,
+.image-container  >  h2  >  span  >  span, a  >  .heading-holding-banner  >  h2  >  span  >  span {
+  background-position: 99% 50%;
+}
+
+.image-container  >  h2  >  span  >  span {
+  /*background-image:none;
+  padding-right: 10px;
+   /* added due to image container boxes on Archives sector landing page not linking to pages for their headings*/
+}
+h3 + div.ends-at-one-third, .ends-at-one-third  >  h3 {
+  padding:10px 0 15px 0;
+  margin:0;
+}
+
+h3 a, h3 a:visited, h3 a:active, h4 a, h4 a:visited, h4 a:active, .social-media-links a:hover {
+  text-decoration: none;
+  line-height: 1.6;
+}
+h3 a:hover, h4 a:hover, a:hover h1  >  span  >  span, a:hover h2  >  span  >  span, a:hover h3  >  span  >  span,
+.image-description a:hover, .selected,
+.mega-menu h3:hover /* Custom mega menu h3 heading hover */,
+a .sprite-text:hover {
+  text-decoration: underline;
+}
+
+
+span > h2,
+.breather > h2,
+.breather > h3,
+.breather > h4 {
+  padding: .5em 0 .25em 0;
+  display:block;
+  line-height: 1.6;
+  letter-spacing: -.025em;
+}
+
+.breather  >  h2:first-child,
+.breather  >  h3:first-child  {
+  margin: .25em 0 1em 0; /* added due to padding on paragraphs of body text increasing the space between headings and paragraphs lower down the page */
+}
+
+p + h2, p + h3, ul + h2, ul + h3 {
+  margin: 1.5em 0 1em 0; /* avoid altering, add additional conditions if margins between headings and other content containers are too large or small */
+}
+
+h3 + a + div, #answers h4 {
+  padding-top: 10px;
+}
+h4 + div {
+  padding-top: 0; /* required to prevent first h4 in first div having excessive top padding */
+}
+
+#answers h2 { /* answers ID is too specific, this can be renamed for wider use */
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+/* Custom feature inc. styling for descendant content  - introduced to obscure empty feature boxes in level 2-3 templates */
+.ends-at-two-thirds > .breather > .feature-box,
+.ends-at-full > .breather > .feature-box > div,
+.ends-at-full > .breather > .feature-box > h2,
+.ends-at-full > .breather > .feature-box > h3,
+.ends-at-full > .breather > .feature-box > p,
+.ends-at-full > .breather > .feature-box > ul,
+.ends-at-full > .breather > .feature-box > ol,
+.ends-at-full > .breather > .feature-box > blockquote {
+  background-color: #f3f3f3;
+  padding:20px;
+  margin: 0;
+  line-height: 1.6;
+  width:auto;
+}
+
+
+.ends-at-full > .breather > .feature-box > p > a,
+.ends-at-full > .breather > .feature-box > ul > li > a {
+  font-size: 1.1em; /* text size increase offsets the grey background as the blue is still too dim */
+}
+
+
+.feature-box h2,
+.feature-box h3,
+.feature-box h4,
+.breather div > h4,
+.breather div > h3,
+h2 + h3, h3 + h3,
+p + h2 + h3,
+ul + h3,
+ul + p + h3,
+p + div + h3,
+p + h3, p + h4, blockquote + h3, table + h3,
+h3 > a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature-box:last-child {
+  margin-bottom: 1.5em !important;
+}
+.feature-box img {
+  /*border: 1px solid #ddd;	*/
+  margin: .5em 0;
+}
+.feature-box blockquote, .feature-box blockquote.misc  {
+  margin: 1.5em 1em 1em 1em;
+}
+
+
+/* - Add a heading field to the feature box ACF for Level 2 pages OR use the following workaround and request that editors make the first paragraph a brief 'psuedo-heading'
+
+.ends-at-one-third > .breather > p:first-of-type {
+font-family: 'Bitter', serif;
+font-size: 1.16em;
+margin: 0;
+padding: 0 0 .25em 0;
+}
+*/
+
+
+/* Breadcrumb layout and links */
+#breadcrumb-holder .col {
+  margin: 0.5em 0 0 0;
+}
+#breadcrumb a {
+  padding-right: .25em;
+  border-bottom: 0;
+}
+#breadcrumb {
+  font-size: 0.9em;
+  margin: 1em 0;
+}
+#breadcrumb p span a {
+  padding: 0 0.1em 0 0.1em;
+}
+.no-breadcrumb {
+  margin-top: 46px; /* Adds margin when no breadcrumb needed */
+}
+/* Full width heading holder */
+.heading-holding-banner {
+  padding: 10px 0;
+  background: url('http://nationalarchives.gov.uk/images/global/dot-grey.png'); /* Remove when id specific backgrounds are introduced */
+}
+
+hr {
+  padding: 5px 0;
+  background: url('http://nationalarchives.gov.uk/images/global/dot-grey.png'); /* Remove when id specific backgrounds are introduced */
+}
+
+.dark {
+  background: url('http://nationalarchives.gov.uk/images/local/dot-grey-333.png'); /* Remove when id specific backgrounds are introduced */
+  margin-left: -20px;
+}
+/* Accordion menu style */
+.ends-at-two-thirds .accordion  >  h2, .ends-at-two-thirds .accordion  >  h3 {
+  padding: .5em 2em .5em .5em;
+  background-color: #EFEFEF;
+  background-image: url('http://nationalarchives.gov.uk/images/global/icon-24-accordion-open.png');
+  background-repeat: no-repeat;
+  background-position: 99% center;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.16em;
+}
+.ends-at-two-thirds .expanded  >  h2, .ends-at-two-thirds .expanded  >  h3 {
+  background-image: url('http://nationalarchives.gov.uk/images/global/icon-24-accordion-close.png');
+}
+.accordion  >  h2:hover, .accordion  >  h3:hover {
+  cursor: pointer;
+}
+.accordion-content {
+  padding: 1em 1em 0 1em;
+}
+
+
+/* Image sprite - icons */
+.sprite {
+  background-image: url("http://nationalarchives.gov.uk/images/global/icons-compressed.png");
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+
+}
+/* Text that appears next to sprite icons */
+.sprite-text {
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  padding-top: 0.6em;
+}
+
+
+
+/* Buttons */
+a.button {
+  background: #008484;
+  color: #fff;
+  padding: 0.5em;
+  display: inline-block; /* used to contain button text when it drops to a second line */
+  min-width: 24px;
+  text-align: center;
+}
+a.button:hover {
+  background: #FCE45C;
+  color: #000;
+  text-decoration: underline;
+  border: none;
+}
+
+.close  {
+  background: url("http://nationalarchives.gov.uk/images/global/close-img.png");
+  background-repeat:no-repeat;
+  background-position:0 center;
+  padding-left: 24px;
+  text-decoration: none;
+  font-size:.85em;
+  color: #fce45c !important;
+}
+
+/* Ghost button class can now be applied directly to any html tag */
+
+.ghost-button  {
+  line-height: 1em;
+  display: inline-block;
+  color: #FFF !important;
+  border: solid 1px #FFFFFF;
+  padding: 15px;
+  margin: 2% 0 2% 0;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  width:auto;
+  text-align:center;
+}
+
+.ghost-button:hover {
+  text-decoration: none;
+  background-color: #009999;
+}
+
+.ghost-button h3 {
+  margin: 7% 0 7% 0;
+}
+
+/* End - Ghost button class can now be applied directly to any html tag */
+
+/* Image description toggler */
+.image-description {
+  display: none;
+  background-color: #111;
+  opacity: .85;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  padding: 5px 10px;
+  margin: 0 5px 0 0;
+  z-index: 5000;
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: #eee;
+  text-align: right;
+  min-width: 300px;
+}
+.image-description a:link, .image-description a:visited {
+  padding-left: .5em;
+  color: #FCE45C;
+}
+
+
+/* Pictorial lists */
+.pictorial-list {
+}
+.pictorial-list h3 {
+  font-family: 'Bitter', serif;
+  font-size: 1.16em;
+  letter-spacing: -.025em;
+  color: #111;
+  margin: 10px 10px 0 0;
+  display: inline-block; /* the translucent strap extends with the character count */
+  background-color: rgba(255,255,255,.85);
+  padding: .25em 10px;
+}
+.pictorial-list div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+}
+.pictorial-list div p {
+  margin: 0 0 20px 0;
+}
+.pictorial-list div a, .pictorial-list div.has-background {
+  display: block;
+  height: 180px;
+}
+.pictorial-list div.resource-block a {
+  height: auto; /* for pictorial lists with additional content the height must be over-ridden */
+}
+
+.pictorial-list > div.resource-block a h3 {
+  padding: .25em 0;
+  background:transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pictorial-list div a:hover,
+.image-container:hover
+{
+  background-color: rgba(255,255,255,.15);
+  -webkit-transition: background 300ms ease;
+  -moz-transition: background 300ms ease;
+  -ms-transition: background 300ms ease;
+  -o-transition: background 300ms ease;
+  transition: background 300ms ease;
+}
+/* to achieve the same hover effect as above on embedded images */
+.bundle-tile img:hover, .has-background:hover {
+  opacity: .85;
+}
+.pictorial-list div a:hover h3,
+.pictorial-list a:hover h3,
+.social-media-links a:hover h3 {
+  text-decoration:underline;
+
+}
+
+
+
+.social-media-links {
+  padding-left: 0;
+}
+
+.social-media-links li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.social-media-links span.sprite {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.social-media-links a {
+  vertical-align: middle;
+  color: #000;
+}
+
+
+
+.social-media-links h3 {
+  margin-top: 0;
+  padding-left: 50px;
+}
+
+.social-media-links p {
+  margin-top: 0.5em;
+  padding-left: 50px;
+}
+
+
+.icon-img-desc {
+  background-position: 0 0;
+}
+.icon-img-desc:hover, .expanded {
+  background-position: 0 40px;
+}
+.icon-new-window {
+  background-position: -40px 0;
+}
+.icon-new-window:hover {
+  background-position: -40px 40px;
+}
+.icon-play {
+  background-position: -80px 0;
+}
+.icon-play:hover {
+  background-position: -80px 40px;
+}
+.icon-rss {
+  background-position: -120px 0;
+}
+.icon-rss:hover {
+  background-position: -120px 40px
+}
+.icon-facebook {
+  background-position: -160px 0;
+}
+.icon-facebook:hover {
+  background-position: -160px 40px;
+}
+.icon-twitter {
+  background-position: -200px 0;
+}
+.icon-twitter:hover {
+  background-position: -200px 40px;
+}
+.icon-pinterest {
+  background-position: -280px 0;
+}
+.icon-pinterest:hover {
+  background-position: -280px 40px;
+}
+.icon-flickr {
+  background-position: -320px 0;
+}
+.icon-flickr:hover {
+  background-position: -320px 40px;
+}
+
+
+/* Disc menu, A-Z Menu & Numbered menu - remove these once tested as we should be able to use MENU-DISC for all single-character list items (create menu-disc-large if larger width and height variant needed) */
+
+#disc-menu, #numbered-menu {
+  width: 100%;
+  float: left;
+  margin: 0 0 20px 0;
+}
+#disc-menu li, #numbered-menu li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+  width: 18%;
+}
+#disc-menu li a, #numbered-menu li a {
+  font-family: 'Bitter', Georgia, Verdana, Arial, Helvetica, serif;
+  font-size: 1.5em;
+  display: inline-block;
+  background-color: #008484;
+  color: #FEFEFE;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 200%;
+  width: 44px;
+  height: 44px;
+}
+
+#menu-disc, #a-z-menu {
+  min-height: 48px;
+  float: left;
+  margin:0;
+  padding:0;
+}
+
+#menu-disc li, #a-z-menu li  {
+  text-align: center;
+  list-style-type: none;
+  margin: 0 4px 4px 0;
+  display: inline-block;
+  width: auto;
+  float:left;
+}
+
+#menu-disc li a, #menu-disc li span.disabled,
+#a-z-menu li a, #a-z-menu li span.disabled  {
+  font-family: 'Bitter',Georgia, Verdana, Arial, Helvetica, serif;
+  font-size: 1.25em;
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  color: #FEFEFE;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+#menu-disc li a, #a-z-menu li a {
+  background-color: #008484;
+}
+
+#menu-disc li span.disabled, #a-z-menu li span.disabled {
+  background-color: #ddd;
+  background-color: rgba(0,0,0,.25);
+  color: #999;
+}
+
+#menu-disc li a:hover, #disc-menu li a:hover, #menu-disc .selected, #a-z-menu .selected a,
+#a-z-menu .selected, #a-z-menu a:hover  {
+  color: #000;
+  background-color: #FCE45C;
+  border-radius: 50%;
+}
+
+#menu-disc li a, #menu-disc li span.disabled
+  /* The newer style for disc menus uses has a reduced width and height - when all disc menus are renamed to 'menu-disc' these sizes will be standardised */ {
+  width: 32px;
+  line-height: 32px;
+}
+
+
+/* Define the opening times style - change class in ASP file */
+
+.todayOpen {
+}
+
+.todayOpen p, .text-align-center {
+  text-align: center;
+  margin: 0;
+  padding-top: 0px;
+  /*	font-size: .85em;*/
+}
+
+/* remove these classes to allow ALL linked h3 to display with Open Sans - bigTime no longer in use */
+.mega-menu h3 > a,
+a + h3 > a,
+.breather > h3 > a,
+.bigTime {
+  margin-top: .1em;
+  font-family: 'Bitter', serif;
+}
+
+
+/* Banner overlay */
+.overlay, .overlay-relative {
+  /*width: 100%;*/
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,.66);
+  color: #ddd;
+}
+
+.overlay-relative {
+  position:relative;
+  clear:both;
+  margin: 1em 0 0 0;
+}
+
+
+.overlay h3 {
+  margin: .25em 0;
+
+}
+
+.overlay ul, .overlay-relative ul {
+  float: left;
+  width: 100%;
+  list-style-type: none;
+  margin: 5px 0;
+}
+.overlay ul li, .overlay-relative ul li {
+  width: 95%;
+  float: left;
+  margin: .5em 0 .5em 2%;
+  list-style-image: none;
+}
+
+#resources-form {
+  text-align:center;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0 10px;
+  background-color: #008484;
+}
+
+.tag {
+  margin: 0 .25em .25em 0;
+  padding: .15em .5em;
+  font-size: .8em;
+  letter-spacing: .01em;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 5px;
+  display: inline-block;
+  background-color:#f5f5f5;
+}
+
+.research-guide-glossary-term {
+  display: inline-block;
+  border-bottom: 1px dotted #555;
+}
+
+.type-label {
+  width:auto;
+  padding:0;
+  margin: 0;
+  height: 24px;
+  display:inline-block;
+
+}
+
+.type-label span {
+  margin:0;
+  padding: 0 5px;
+  font-size: .85em;
+  color:#000 !important;
+}
+
+
+img.indicator {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+
+
+a + div.position-top-right {
+  background: #fff; /* currently deployed to improve readability of the opening hours information on the homepage */
+}
+
+.box-featured-img {
+  /* for featured images to appear to the right of text extracts from the same page */
+  float:right;
+  height: 180px;
+  width: 180px;
+  margin: 0 0 10px 1.5em;
+  background-position: center;
+  background-size: cover; /* cover used on the basis that featured images will be cropped to square propotions (minimum size 180x180) */
+  background-repeat: no-repeat;
+}
+
+
+/* Custom banner properties for page content */
+#content-banner {
+  background-position: center 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #666;
+  height:auto;
+}
+
+
+.banner-over-box { /* used on Education time period headers */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.inline-banner{
+  width:99%;
+  min-height: 320px;
+  -webkit-box-shadow: 9px 9px 0px -1px rgba(204,204,204,1);
+  -moz-box-shadow: 9px 9px 0px -1px rgba(204,204,204,1);
+  box-shadow: 9px 9px 0px -1px rgba(204,204,204,1);
+  margin-bottom: 20px;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #666;
+  position: relative;
+}
+.inline-banner .float-left{
+  width:100%;
+}
+.inline-banner .float-right{
+  width:100%;
+}
+.inline-banner .div-center{
+  text-align:left !important;
+}
+.inline-banner p{
+  margin-bottom:10px;
+}
+/* Colours */
+.background-white {
+  background-color: #fff;
+}
+.text-dark-grey {
+  color: #666;
+}
+.text-black{
+  color:#000 !important;
+}
+.bg-peach {
+  background-color: #f4d57f; /* used to label Classroom resources on Education */
+}
+.bg-mint {
+  background-color: #B2DAC6;	 /* used to label Sessions we teach on Education */
+}
+
+
+
+
+.breather a img {
+  display: block;
+  width: auto;
+  height:auto;
+  max-width: 100%;
+  margin: 0 0 1em 0;
+}
+
+img.inlineThumb { /* apply this class to embedded images to prevent them from filling the width of their container but use sparingly - ideally we focus on bigger images that make better use of the space provided - as of September 2014 this is only in use on the UFOS page sidebar */
+  width: auto !important;
+}
+
+a#cookieCutter {
+  background: url("http://nationalarchives.gov.uk/images/global/close-img.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+  margin-left: 10px;
+  padding-top: 1px;
+  padding-left: 22px;
+  text-decoration: none;
+}
+
+
+/* -- ONLY USED ON: EDUCATION -- */
+.target p {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+.siblings-introduction-image {
+  background-position: center;
+}
+
+
+#resources-form {
+  text-align:center;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0 10px;
+  background-color: #008484;
+}
+
+.tag {
+  display: inline-block;
+}
+
+.type-label {
+  width:auto;
+  padding:0;
+  margin: 0;
+  height: 24px;
+  display:inline-block;
+
+}
+
+.type-label span {
+  margin:0;
+  padding: 0 5px;
+  font-size: .85em;
+  color:#000 !important;
+}
+
+
+/* -- Styles for native WP audio player -- */
+
+.mejs-container {
+  margin: 0 0 10px 0;
+}
+
+/** statistic styles - used on ARCHIVES SECTOR **/
+
+.statistic {
+  font-family: 'Bitter', Georgia, serif;
+  font-size: 1.5em !important;
+  display: block;
+  margin: 10px 0;
+}
+.statistic-wide {
+  float: left;
+  font-family: 'Bitter', Georgia, serif;
+  font-size: 2em !important;
+  margin: -5px 10px 0 0;
+  width: 128px;
+}
+
+
+.entry-meta {
+  clear: both;
+  font-size: 0.9em;
+  padding: 0 0 10px 0;
+  width: 100%;
+}
+
+.resource-block p {
+  font-size: .9em; /* ensures dates displayed in sidebar for related resources are same size as entry meta */
+}
+
+
+
+.inner-grid-column {
+  float:none !important;
+  padding-bottom:5px !important;
+}
+
+.inner-grid-column:first-of-type{
+  border-right:1px solid #999;
+}
+
+
+/** Archive pagination buttons **/
+/* Buttons */
+.archive-btn a:link,.archive-btn a:active,.archive-btn a:focus, .archive-btn a:visited {
+  background: #008484;
+  color: #fff;
+  padding: 0.5em;
+  display: inline-block; /* used to contain button text when it drops to a second line */
+  min-width: 24px;
+  text-align: center;
+}
+.archive-btn a:hover,
+#footer-wrapper a:focus,
+#search-options li a:focus,
+.image-description a:focus,
+.mega-menu a:focus,
+.overlay a.button:hover,
+.overlay a:focus {
+  background: #FCE45C;
+  color: #000;
+  text-decoration: underline;
+  border: none;
+}
+
+
+/* TablePress plug-in overrides
+
+.dataTables_wrapper {
+background: #efefef;
+padding: 1em 1px;
+}*/
+
+.dataTables_wrapper label {
+  margin: 0 10px 10px 10px;
+  float:left;
+}
+
+.dataTables_info {
+  margin: 5px 10px 0 10px;
+}
+
+.tablepress tfoot th, .tablepress thead th {
+  font-size:.9em;
+  font-weight: 400;
+}
+.tablepress td, .tablepress th {
+  padding: 5px;
+}
+
+
+.tablepress caption {
+  text-align: center !important;
+  padding: 5px !important;
+}
+
+.dataTables_paginate {
+  float: right;
+  margin: 4px 10px 0;
+  padding: 10px 20px 0 0;
+  font-size: .9em;
+}
+
+.paginate_disabled_next:after, .paginate_disabled_previous:before, .paginate_enabled_next:after, .paginate_enabled_previous:before {
+  color:#008484;
+  text-shadow: 0 0;
+  padding-top: 2px;
+}
+
+.dataTables_paginate .paginate_disabled_next, .dataTables_paginate .paginate_disabled_previous {
+  color: #405480 !important;
+}
+
+thead {
+  border-top: 1px solid #ddd;
+}
+
+.breather table {
+  width: 100%;
+  margin:0 0 2em 0;
+  padding:0;
+}
+.breather th {
+  text-align: left;
+  background-color: #eee;
+}
+.breather tr,
+.breather th, .breather td {
+  padding: .5em;
+  border-bottom: 1px solid #ddd;
+
+}
+.breather td img {
+  margin:0;
+  padding:0;
+  width:auto;
+}
+.breather .table {
+  thead {
+    background: #eee;
+    font-weight: 700;
+  }
+}
+.breather .table-bordered {
+  border: 1px solid #ddd;
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border: 1px solid #ddd;
+      }
+    }
+  }
+  > thead > tr {
+    > th,
+    > td {
+      border-bottom-width: 2px;
+    }
+  }
+}
+.breather .table-striped {
+  > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+.overlay-type-label {
+  padding: .25em .5em;
+  background-color: rgba(0,0,0,.66) !important;
+  color: #fce45c;
+  margin:147px 0 0 0;
+  float:right;
+}
+
+#banner-form {
+
+  display:inline-block;
+}
+
+#banner-form > .button {
+  height:40px;
+  padding:0 8px;
+}
+
+.col {
+  margin-bottom: 1.5em; /* added because the 2% margin for col in the grid styles above is too small once the grid reduces to a single stack */
+}
+
+a:focus h1 > span,
+a:focus h2 > span,
+a:focus h3 > span {
+  background-color: transparent;
+  background-image: none;
+}
+a:focus h1 > span > span, h1 > span > span > a:focus, a:focus > div > h1 > span > span
+a:focus h2 > span > span, h2 > span > span > a:focus, a:focus > div > h2 > span > span,
+a:focus h3 > span > span, h3 > span > span > a:focus, a:focus > div > h3 > span > span {
+  background-color: #FCE45C!important;
+  color: #000!important;
+}
+.addthis_toolbox	{
+  width: 112px !important;
+}
+
+
+/* WEB COLOURS */
+
+.hue-red {
+  background-color: #cb0d07;
+  color: #fff;
+}
+.hue-yellow {
+  background-color: #fce45c;
+  color: #111;
+}
+.hue-teal {
+  background-color: #008484;
+  color: #fff;
+}
+.hue-indigo {
+  background-color: #405480;
+  color: #fff;
+}
+.hue-grey-darkest {
+  background-color: #111;
+  color: #fff;
+}
+.hue-grey-darker {
+  background-color: #222;
+  color: #fff;
+}
+.hue-grey-dark {
+  background-color: #333;
+  color: #fff;
+}
+.hue-grey-mid-dark {
+  background-color: #555;
+  color: #fff;
+}
+.hue-grey-mid-light {
+  background-color: #999;
+  color: #111;
+}
+.hue-grey-light {
+  background-color: #ddd;
+  color: #111;
+}
+.hue-grey-lighter {
+  background-color: #eee;
+  color: #111;
+}
+.hue-grey-lightest {
+  background-color: #f3f3f3;
+  color: #111;
+}
+
+.hue-yellow-dark {
+  background-color: #ebab00;
+  color: #111;
+}
+
+.text-yellow, a.text-yellow,
+.hue-grey-darkest a, .hue-grey-darker a, .hue-grey-dark a, .hue-grey-mid-dark a,
+a.hue-grey-darkest, a.hue-grey-darker, a.hue-grey-dark, a.hue-grey-mid-dark {
+  color: #fce45c; /* no need to specify text link color for lighter grey hue classes as this can be our default blue */
+}
+
+.text-grey-light {
+  color: #ddd;
+}
+.text-blue, .hue-yellow a {
+  color: #2A5DB0;
+}
+
+.hue-teal, .hue-red, .hue-teal a, .overlay a.button {
+  color: #fff;
+}
+
+.hue-50-yellow,.hue-75-yellow {
+  background-color: #fce45c;
+  background-color: rgba(252,228,92,.75);
+  color: #111;
+}
+
+.hue-50-teal {
+  background-color: #008484;
+  background-color: rgba(0,153,153,.50);
+  color: #eee;
+}
+
+.hue-25-teal {
+  background-color: #008484;
+  background-color: rgba(0,153,153,.25);
+  color: #eee;
+}
+
+.hue-50-black {
+  background-color: #333;
+  background-color: rgba(0,0,0,.50);
+  color: #eee;
+}
+
+.hue-25-black {
+  background-color: #333;
+  background-color: rgba(0,0,0,.25);
+  color: #eee;
+}
+
+.hue-25-white {
+  background-color: #fff;
+  background-color: rgba(255,255,255,.25);
+  color: #111;
+}
+
+.hue-grey-darkest a, .hue-grey-darker a, .hue-grey-dark a, .hue-grey-mid-dark a,
+a.hue-grey-darkest, a.hue-grey-darker, a.hue-grey-dark, a.hue-grey-mid-dark {
+  color: #fce45c; /* no need to specify text link color for lighter grey hue classes as this can be our default blue */
+}
+
+.hue-yellow a {
+  color: #2A5DB0;
+}
+
+a.hue-teal, a.hue-red {
+  color: #fce45c;
+  background-color: transparent;
+}
+
+
+/* Start - Added for research-guide contact us area */
+.width-full-to-three-quarters	{
+  width: 70%;
+}
+.width-full-to-one-quarter	{
+  width: 30%;
+}
+.width-full-to-one-quarter a img {
+  width: 100px !important;
+  float: right;
+}
+
+
+/* End - Added for research-guide contact us area */
+
+/* Start - Research guide availability indicator */
+
+.indicator  {
+  background: none;
+  display: block;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3px;
+  position: relative;
+}
+.indicator .item {
+  width: 100%;
+}
+.indicator .active {
+  background: url('http://nationalarchives.gov.uk/images/records/icon-up-arrow.png') no-repeat 60px 43px;
+}
+.indicator h3 {
+  display: inline-block;
+  color: #111;
+  margin-bottom: 15px;
+  background: url('http://nationalarchives.gov.uk/images/records/icon-availability-all.png') no-repeat;
+  background-size: 23px;
+  font-size: 0.95em;
+  font-family: 'Open sans', serif;
+  padding: 0 2px 0 29px;
+}
+.indicator h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.indicator h3:last-child {
+  border-bottom: 0;
+}
+.indicator h3.some {
+  background: url('http://nationalarchives.gov.uk/images/records/icon-availability-some.png') no-repeat;
+  background-size: 23px;
+}
+.indicator h3.none {
+  background: url('http://nationalarchives.gov.uk/images/records/icon-availability-none.png') no-repeat;
+  background-size: 23px;
+}
+.indicator .breather {
+  padding: 10px 0 10px 15px;
+}
+.indicator .indicator-description {
+  background: #f3f3f3;
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.indicator .indicator-description .breather {
+  float: left;
+}
+.indicator .indicator-description p {
+  margin: 0;
+  width: auto;
+  display: block;
+  float: left;
+}
+.indicator ul {
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 0.5em 0 0 0;
+  float: left;
+  width: 100%;
+}
+.indicator ul li {
+  background: #ddd;
+  display: block;
+  float: left;
+  width: 51px;
+  margin: 0;
+  border: 0;
+  padding: 0.1em;
+  color: #333;
+  font-size: 0.9em;
+  height: auto !important;
+  text-align: center;
+}
+.indicator ul li:last-child {
+  border-right: 0;
+}
+.indicator ul li.none-small {
+  background-color: #CB0D07;
+  color: #fff;
+}
+.indicator ul li.some-small {
+  background-color: #ebab00;
+  color: #000;
+}
+.indicator ul li.all-small {
+  background-color: #008484;
+  color: #fff;
+}
+/* End Research guide availability indicator */
+
+
+/* Sitewide form styles */
+
+
+/* Research guides forms (can become sitewide form styles if desired) */
+
+.research-guide-form form {
+  float:left;
+  width:95%;
+  background-color:#eee;
+  padding: 2.5% 2.5% 0 2.5%;
+  margin:0 0 1em 0;
+  border-bottom: 3px solid #ddd;
+}
+
+.research-guide-form form .button-holder {
+  float:right;
+  margin:1em 0;
+}
+
+.research-guide-form form .field-row label {
+  display: inline-block;
+  margin:0 0 .25em 0;
+  width: 47%; /* replicated from Discovery */
+}
+
+.research-guide-form form .field-row input {
+  margin:0 0 .25em 0;
+  width: 98%;
+  min-width: 0;
+}
+
+.research-guide-form form fieldset legend {
+  display: none;
+}
+
+/* End of Research guides forms */
+
+/* Start of campaign boxes for homepage */
+.campaign-box {
+  position: relative;
+}
+
+.campaign-box p	{
+  margin: 20px 0 0 20px;
+  width: 66.6%;
+  font-family: 'Bitter', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  color: #fff;
+}
+.campaign-box form {
+  margin: 20px 0 0 20px;
+}
+.campaign-box p a {
+  color: #fff;
+}
+.campaign-box a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  float: left;
+  height: 100%;
+  text-decoration: none;
+}
+.campaign-box a p.action:hover {
+  color: #fce45c !important;
+}
+.campaign-box p.action {
+  color: #fce45c;
+  margin: 10px 0 0 20px !important;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1em;
+}
+.campaign-box p.action a {
+  color: #fce45c;
+}
+.campaign-box .image-container {
+  background: transparent !important;
+}
+.campaign-box input[type="email"] {
+  min-width: 185px !important;
+}
+/* End of campaign boxes for homepage */
+
+/* Start of styles for Help with your research */
+
+/* Info panel */
+.info-panel {
+  background-color: #007272;
+  height: 105px;
+  border-bottom: 4px solid #005555;
+}
+.info-panel h2  {
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+.info-panel a.button {
+  margin: 0 auto !important;
+  display: block;
+  width: 100px;
+}
+.info-panel form {
+  margin: 0 auto;
+  width: 300px;
+}
+.info-panel input[type="text"] {
+  margin: 0 auto;
+  width: 250px;
+}
+
+
+/* Fifth width box */
+.fifth-width {
+  width: 99%;
+  margin-right: 1%;
+  float: left;
+  text-align: left;
+  position: relative;
+  height: 160px;
+}
+.fifth-width .image {
+  height: 115px;
+  margin-bottom: 3px;
+}
+.fifth-width p {
+  background-color: #fff;
+  width: 100%;
+  font-size: 1.2em;
+  float: left;
+  margin-bottom: 1em;
+  letter-spacing: -.5px;
+}
+a .fifth-width {
+  color: #222;
+}
+a .fifth-width:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+a .fifth-width p:hover {
+  text-decoration: underline !important;
+}
+
+
+.search-box-container {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.background-grey	{
+  background-color: #efefef;
+}
+.search-box-container input {
+  width: 84%;
+  float: left;
+}
+.search-box-container p {
+  margin: 4px 0 10px;
+  font-family: 'Bitter', sans-serif;
+  font-size: 1.2em;
+  color: #444;
+}
+.center-container {
+  margin: 0 auto;
+  width: 100%;
+}
+.center-container form {
+  width: 100%;
+  display: block;
+  float: left;
+}
+/* End of styles for Help with your research */
+
+/* START OF IM guidance links styles */
+
+#guidance-links .guidance-item {
+  background: #f3f3f3 !important;
+  border-bottom: 2px solid #ddd;
+  margin: 2% 0;
+
+}
+.select-float h2{
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #fff;
+  display:inline-block;
+  float:left;
+}
+.select-float{
+  text-align:center;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:10px;
+  background-color:transparent;
+  height:auto;
+  overflow:hidden;
+}
+
+.guidance-item h3 a[href$=".pdf"]:after {
+  content: "";
+}
+.guidance-item h3 a[href$=".xls"]:after {
+  content: "";
+}
+.guidance-item h3 a[href$=".doc"]:after {
+  content: "";
+}
+
+span.guidance-description {
+  display: block;
+  line-height: 1.6;
+  margin: .3em 0 1em 0;
+}
+
+.file-meta, .title-file-meta{
+  color:#555555;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75em;
+  display: inline-block;
+  background: none;
+}
+
+.file-meta {
+  font-size: .85em;
+}
+
+
+.post-edit-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .6em;
+  font-weight: 700;
+  background: #008484;
+  color: #fff !important;
+  padding: 3px 5px;
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 768px) {
+  select {
+    width:100%;
+    background-color: #f3f3f3;
+    height:30px;
+    border:1px solid #CCC;
+    margin-right:20px;
+    margin-bottom:5px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+
+
+  select {
+    background-color: #f3f3f3;
+    border:1px solid #CCC;
+    width:auto;
+  }
+
+  .select-float h2{
+    float:none !important;
+  }
+
+  input[type="submit"] {
+    color: #fff;
+    padding: 0.5em;
+    margin: 0;
+    display: inline-block;
+    width:auto;
+  }
+
+  .select-float{
+    text-align:center;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 10px;
+    padding-bottom:0px;
+    background-color:transparent;
+    height:auto;
+    overflow:hidden;
+  }
+
+  .link-list {
+    list-style: outside url("http://nationalarchives.gov.uk/images/global/list-link-bullet.png") !important;
+
+  }
+  .link-list li {
+    float:left;
+    margin-right:10px;
+    width:100%;
+  }
+
+  span.guidance-selected{
+    background-color:#FCE45C;
+  }
+
+  span.flag{
+    background: rgba(252,228,92,.85);
+    padding:2px;
+    margin-right:2px;
+
+  }
+
+  span.flag a{
+    text-decoration:none;
+  }
+
+  span.flag a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* END OF IM guidance links styles */
+
+/* Button styling on Independent Research page */
+.btn-FindResearchers {
+  top: 12px;
+  position: relative;
+}
+/* End of Button styling on Independent Research page */
+
+/* Right aligned bullet style for HWYR landing page */
+
+.bullet-right {
+  text-align: right;
+  padding-right: 22px;
+  background: url('http://nationalarchives.gov.uk/images/global/list-link-bullet.png') no-repeat right 7px;
+  display: block;
+}
+
+/* End of Right aligned bullet style for HWYR landing page */
+
+/* Start of Exec/Management additions */
+
+.picture-container {
+  padding: 10px;
+  min-height: 100px;
+}
+.picture-container img:hover {
+  opacity: 0.8;
+}
+.picture-container img {
+  width: 100%;
+  margin: 0 !important;
+}
+.picture-description h2 {
+  margin: 0px 20px !important;
+  padding: 0 !important;
+  background: url('http://nationalarchives.gov.uk/images/global/list-link-bullet.png') no-repeat right 7px;
+}
+.picture-description h2 a {
+  font-family: 'Bitter', sans-serif !important;
+  font-weight: normal !important;
+  font-size: 0.85em;
+}
+.picture-description p {
+  margin: 0 20px 20px;
+  padding: 0;
+}
+.center-content {
+  text-align: center;
+}
+.position-center {
+  margin: 0 auto;
+  width: 100%;
+}
+.bitter {
+  font-family: 'Bitter', sans-serif;
+}
+.photo-extend {
+  margin-bottom: 1.5em !important;
+  margin-top: 0 !important;
+}
+
+/* end of Exec/Management additions */
+
+/* list left thumbnail */
+.list_left_thumbnail {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  li {
+    img {
+      float:left;
+      width:200px;
+      padding:0 10px 10px 0;
+      @media (max-width: 375px){
+        width: 100%;
+      }
+    }
+    clear:both;
+    width:100%;
+    border-bottom:1px solid #ECECEC;
+    display:inline-block;
+    padding:0 0 10px 0;
+  }
+}
+/* list right thumbnail */
+.list_right_thumbnail {
+  @extend .list_left_thumbnail;
+  li {
+    img {
+      float:right;
+    }
+  }
+}
+
+/* for embedded audiovisual players a bottom margin is required */
+#player {
+  margin: 0 0 1em 0;
+}
+.todayOpen {
+  background: #fff;
+  padding: .25em;
+}

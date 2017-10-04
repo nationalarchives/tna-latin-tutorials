@@ -1,0 +1,28 @@
+/* TNA Mixins */
+@mixin tna_overlay_dark_filter {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0) transparent;
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+@mixin tna_overlay_blue_filter {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(45, 59, 89) transparent;
+  /* RGBa with 0.6 opacity */
+  background: rgba(45, 59, 89, 0.9);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2d3b5900, endColorstr=#2d3b5900);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2d3b5900, endColorstr=#2d3b5900)";
+}
+
+@mixin tna_transition {
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  -moz-transition: 0.4s all ease-in-out;
+}

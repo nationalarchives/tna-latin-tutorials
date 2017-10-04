@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4179a90f-48e6-490f-9ebb-30508cbfa0a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/base-sass.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_mega_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_custom_design_patterns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_default_html_tags.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_footer-content.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_footer-newsletter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_media_queries.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_mega_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_namespaces.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_reset_the_browser.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/css/sass/base-sass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/hide-menu-on-load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ash-html-template/test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/base-sass-1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/css-1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/css.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/home-sass.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/ie9.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/images.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/css/new-styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/ar-1-528-suffragettes-1-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/dot-grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/footer-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/heading-flourish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/global/list-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/gov-uk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/logo-ogl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/social/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/social/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/social/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/social/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/social/youtube-play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/images/tna-newsletter-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ash-html-template/menu.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ash-html-template/README.md" afterPath="$PROJECT_DIR$/ash-html-template/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ash-html-template/index.html" afterPath="$PROJECT_DIR$/ash-html-template/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/tna-latin-tutorials.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_global.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="83">
-              <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+              <caret line="89" column="29" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -85,20 +43,33 @@
         <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="569">
-              <caret line="236" column="15" lean-forward="true" selection-start-line="236" selection-start-column="15" selection-end-line="236" selection-end-column="15" />
+              <caret line="236" column="15" lean-forward="false" selection-start-line="236" selection-start-column="15" selection-end-line="236" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ash-html-template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="1700">
+              <caret line="473" column="16" lean-forward="true" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
               <folding>
-                <marker date="1507103837887" expanded="true" signature="944:983" ph="..." />
+                <element signature="n#div#0;n#head#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#head#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ash-html-template/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/ash-html-template/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -116,8 +87,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hide-menu-on-load.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ash-html-template/hide-menu-on-load.js">
+        <entry file="file://$PROJECT_DIR$/ash-html-template/js/hide-menu-on-load.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
@@ -161,8 +142,10 @@
       <find>help</find>
       <find>href=h</find>
       <find>menu.js</find>
-      <find>new-styles</find>
       <find>menu-trigram-lrg.png</find>
+      <find>new-styles</find>
+      <find>.js</find>
+      <find>css</find>
     </findStrings>
     <replaceStrings>
       <replace>http://nationalarchives.gov.uk/img</replace>
@@ -187,7 +170,6 @@
         <option value="$PROJECT_DIR$/ash-html-template/css/new-styles.css" />
         <option value="$PROJECT_DIR$/ash-html-template/Gruntfile.js" />
         <option value="$PROJECT_DIR$/ash-html-template/package.json" />
-        <option value="$PROJECT_DIR$/ash-html-template/.gitignore" />
         <option value="$PROJECT_DIR$/ash-html-template/css/sass/base-sass.scss" />
         <option value="$PROJECT_DIR$/ash-html-template/css/_containers_and_layout_global.scss" />
         <option value="$PROJECT_DIR$/ash-html-template/css/sass/_footer-content.scss" />
@@ -208,8 +190,10 @@
         <option value="$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_header.scss" />
         <option value="$PROJECT_DIR$/ash-html-template/css/sass/_default_html_tags.scss" />
         <option value="$PROJECT_DIR$/ash-html-template/hide-menu-on-load.js" />
-        <option value="$PROJECT_DIR$/ash-html-template/index.html" />
+        <option value="$PROJECT_DIR$/ash-html-template/.gitignore" />
         <option value="$PROJECT_DIR$/ash-html-template/README.md" />
+        <option value="$PROJECT_DIR$/ash-html-template/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -224,10 +208,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,8 +255,7 @@
               <item name="tna-latin-tutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="tna-latin-tutorials" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ash-html-template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -282,12 +265,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../global-includes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\phpapps\apprentice-folder\ash\tna-latin-tutorials\ash-html-template\js" />
+      <recent name="W:\phpapps\apprentice-folder\ash\tna-latin-tutorials\ash-html-template" />
+      <recent name="W:\phpapps\apprentice-folder\ash\tna-latin-tutorials" />
       <recent name="W:\phpapps\apprentice-folder\ash\tna-latin-tutorials\ash-html-template\css\sass" />
       <recent name="W:\phpapps\apprentice-folder\ash\tna-latin-tutorials\ash-html-template\css\old" />
     </key>
@@ -326,15 +312,16 @@
       <workItem from="1507021550860" duration="2771000" />
       <workItem from="1507039620836" duration="1190000" />
       <workItem from="1507100757856" duration="352000" />
-      <workItem from="1507101257544" duration="2750000" />
+      <workItem from="1507101257544" duration="8132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25697000" />
+    <option name="totallyTimeSpent" value="31079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -369,13 +356,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ash-html-template/css/old/images.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3927">
-          <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ash-html-template/css/old/new-styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -516,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ash-html-template/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -669,7 +642,7 @@
     <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -677,7 +650,7 @@
     <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
-          <caret line="89" column="29" lean-forward="true" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <caret line="89" column="29" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -685,15 +658,7 @@
     <entry file="file://$PROJECT_DIR$/ash-html-template/css/sass/_containers_and_layout_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
-          <caret line="236" column="15" lean-forward="true" selection-start-line="236" selection-start-column="15" selection-end-line="236" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ash-html-template/hide-menu-on-load.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="236" column="15" lean-forward="false" selection-start-line="236" selection-start-column="15" selection-end-line="236" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -706,11 +671,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ash-html-template/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ash-html-template/js/hide-menu-on-load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ash-html-template/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -719,18 +700,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ash-html-template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="1700">
+          <caret line="473" column="16" lean-forward="true" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
           <folding>
-            <marker date="1507103837887" expanded="true" signature="944:983" ph="..." />
+            <element signature="n#div#0;n#head#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#head#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ash-html-template/test.js">
+    <entry file="file://$PROJECT_DIR$/ash-html-template/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>

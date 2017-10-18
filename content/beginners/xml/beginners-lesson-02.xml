@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lesson>
+	<number></number>
+	<section stage="1">
+		<title>What is a noun?</title>
+			<content><![CDATA[
+				<div id="contentmain">
+
+<h2 class="redanddots">What is a noun?</h2>
+<p class="mainbodytext">A <a href="/latin/beginners/popup/glossary/default.htm#noun" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#noun','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue">noun<img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a> is a person, place or thing.<br> 
+For example: the queen, a parish, the charter.</p>
+
+<p class="mainbodytext">Nouns are divided into groups called <a href="/latin/beginners/popup/glossary/default.htm#declension" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#declension','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue">declensions<img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a>. Nouns that end in ‘a’ belong to the <strong>first declension</strong>. They are mostly <strong>feminine</strong>.</p>
+
+<div class="bodymargin2"></div>
+<p class="mainbodytext">In Latin, there are no words for ‘a’ or ‘the’.</p>
+
+<div align="center"><div class="bodymargin2"><table width="206" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td width="206" valign="top">
+<img src="/latin/beginners/images/breakdowns/lesson02a.gif" alt="regina means } queen, the queen, a queen" width="206" height="75">
+	</td>
+	</tr>
+</tbody></table></div></div>
+
+		<br>
+
+<div align="center"><div class="bodymargin2"><table width="206" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td width="206" valign="top">
+<img src="/latin/beginners/images/breakdowns/lesson02b.gif" alt="carta means } 125 charter, the charter, a charter" width="206" height="75">
+	</td>
+	</tr>
+</tbody></table></div></div>
+
+		
+
+<p class="mainbodytext">When you are reading a document, you can decide which meaning is appropriate. </p>
+
+<p class="mainbodytext">These are examples of Latin nouns from the first declension.</p>
+
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>domina</em></td>
+    <td width="50%" class="data">lady</td>
+    </tr>
+  <tr>
+    <td class="data"><em>ecclesia</em></td>
+    <td class="data">church</td>
+    </tr>
+  <tr>
+    <td class="data"><em>parochia</em></td>
+    <td class="data"><a href="/latin/beginners/popup/glossary/default.htm#parish" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#parish','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue">parish<img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a></td>
+    </tr>
+  <tr>
+    <td class="data"><em>terra</em></td>
+    <td class="data">land</td>
+  </tr>
+  <tr>
+    <td class="data"><em>vidua</em></td>
+    <td class="data">widow</td>
+  </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">Have you noticed that they all end in ‘<strong>a</strong>’? </p>
+<p class="mainbodytext">People’s names are also nouns. In Latin, women’s names often end in ‘a’.</p>
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>Maria</em></td>
+    <td width="50%" class="data">Mary</td>
+  </tr>
+  <tr>
+    <td class="data"><em>Isabella</em></td>
+    <td class="data">Isabella</td>
+  </tr>
+</tbody></table></div>
+
+<p class="mainbodytext">All Latin nouns have a <a href="/latin/beginners/popup/glossary/default.htm#gender" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#gender','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue"><strong>gender</strong><img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a> – they are either masculine, feminine or neuter. Even charters and parishes have a gender! 
+In English we give some nouns a gender, for example we describe ships as ‘she’.
+</p>
+
+<div class="bodymargin2"><table width="100%" cellpadding="5" cellspacing="0" border="0">
+				<tbody><tr>
+					<td width="2%" valign="top" class="checkbox"><img src="/latin/beginners/images/icons/icon_checklist.gif" alt="Checklist" width="24" height="24"></td>
+				  <td width="84%" class="checkbox"><strong>Checklist:</strong><br>
+Are you confident with:</td>
+			      <td width="14%" valign="bottom" class="checkbox"></td>
+				</tr>
+				<tr>
+				  <td class="checkbox"><img src="/latin/beginners/images/pixels/hextrans.gif" alt="" width="1" height="1"></td>
+		    <td class="checkbox">
+
+  <form name="form1" id="form1" method="post" action="">
+    <input type="checkbox" name="checkbox" value="checkbox">
+The Latin for ‘a land’, ‘the land’ and ‘land’?
+  </form>
+</td>
+			<td valign="bottom" class="checkbox"><p class="right"><a href="/latin/beginners/lesson02/lesson0202.htm"><img src="/latin/beginners/images/buttons/next.gif" alt="Next" width="55" height="24" border="0" align="bottom"></a></p></td>
+			</tr>
+		  </tbody></table></div>
+		  <p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+</div>
+			]]></content>
+	<section>
+	<section stage="2">
+		<title>First declension nouns</title>
+			<content><![CDATA[
+				<div id="contentmain">
+
+<h2 class="redanddots">First declension nouns</h2>
+<p class="mainbodytext">Nouns are divided into groups called <a href="/latin/beginners/popup/glossary/default.htm#declension" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#declension','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue"><strong>declensions</strong><img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a>. Nouns that end in ‘a’ belong to the <strong>first declension</strong>. They are mostly <strong>feminine</strong>.</p>
+
+<div class="bodymargin2"></div>
+<p class="mainbodytext">The first part of a noun stays the same, but endings are added to give different meanings:</p>
+<div align="center"><table width="80%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="20%" class="data"><strong>Singular</strong></td>
+    <td width="60%" class="data"><strong>Meaning </strong></td>
+    <td width="20%" class="data"><strong>Plural </strong></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>a</strong></em></td>
+    <td class="data">charter(s)<br>
+Subject of the sentence: A charter costs 2 pounds.</td>
+    <td class="data"><em>cart<strong>e</strong></em></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>a</strong></em></td>
+    <td class="data">Oh charter(s)!</td>
+    <td class="data"><em>cart<strong>e</strong></em></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>am</strong></em></td>
+    <td class="data">charter(s)<br>
+ Object of the sentence: The king grants the charter.</td>
+    <td class="data"><em>cart<strong>as</strong></em></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>e</strong></em></td>
+    <td class="data">of the charter(s)<br>
+The seal of the charter is broken.</td>
+  <td class="data"><em>cart<strong>arum</strong></em></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>e</strong></em></td>
+    <td class="data">to or for the charter(s)<br>
+They refer to the charters.</td>
+  <td class="data"><em>cart<strong>is</strong></em></td>
+  </tr>
+  <tr>
+    <td class="data"><em>cart<strong>a</strong></em></td>
+    <td class="data">by, with or from the charter(s)<br>
+He claims the land by a charter.</td>
+  <td class="data"><em>cart<strong>is</strong></em></td>
+  </tr>
+</tbody></table>
+</div>
+		<br>
+ 		<p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+<p class="mainbodytext">The ending of a noun is <strong>crucial</strong>, as it tells you</p>
+<div class="bodymargin2"><ul><li>whether the noun is singular or plural</li>
+<li>what role the noun is playing in the sentence</li></ul></div>
+
+<p class="mainbodytext">Read through <em>carta</em> again. Can you see that some endings are the same, but have different meanings? </p>
+<p class="mainbodytext">For example, <em>carte</em> means</p>
+
+
+<div class="bodymargin2">
+<ul>
+<li>Charters</li>
+<li>Of the charter </li>
+<li>To or for the charter  </li>
+</ul></div>
+
+<div class="bodymargin2"></div>
+<p class="mainbodytext">To decide which meaning is appropriate, read the rest of the sentence.<br>
+For example, if part of a sentence is ‘she asked the king’ and the remaining word is <em>carte</em>, the meaning of <em>carte</em> that would make sense is ‘for the charter’.
+</p>
+<p class="mainbodytext">All first declension nouns take the same endings as <em>carta</em> <strong>except</strong> </p>
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>anima</em></td>
+    <td width="50%" class="data">soul</td>
+    </tr>
+  <tr>
+    <td class="data"><em>filia</em></td>
+    <td class="data">daughter</td>
+    </tr>
+</tbody></table></div>
+<div class="bodymargin2"><ul><li><em>filiabus</em> means ‘to or for the daughters’ and ‘by, with or from the daughters’ </li>
+<li><em>animabus</em> means ‘to or for the souls’ and ‘by, with or from the souls’</li></ul>
+</div>
+
+
+<p class="mainbodytext">A few first declension nouns are <strong>masculine</strong>. You are only likely to come across these three words:</p>
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>agricola</em></td>
+    <td width="50%" class="data">farmer</td>
+    </tr>
+  <tr>
+    <td class="data"><em>papa</em></td>
+    <td class="data">pope</td>
+    </tr>
+	<tr>
+    <td class="data"><em>parsona</em></td>
+    <td class="data"><a href="/latin/beginners/popup/glossary/default.htm#parson" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#parson','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue"><strong>parson</strong><img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a></td>
+    </tr>
+</tbody></table></div>
+
+<p class="mainbodytext">You can see that a noun has six different meanings, each relating to a <a href="/latin/beginners/popup/glossary/default.htm#case" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#case','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue"><strong>case</strong><img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a>. <br>
+Each case has a singular and a plural ending. </p>
+<p class="mainbodytext">To <a href="/latin/beginners/popup/glossary/default.htm#decline" onclick="PRO_openPopupWindow('/latin/beginners/popup/glossary/default.htm#decline','popup','600','500','scrollbars=yes,resizable=yes','yes');return document.MM_returnValue"><strong>decline</strong><img src="/latin/beginners/images/icons/glossary.gif" alt="Glossary - opens in a new window" width="15" height="12" border="0"></a> a noun means to list these cases.</p>
+
+
+<div class="bodymargin2"><table width="100%" cellpadding="5" cellspacing="0" border="0">
+				<tbody><tr>
+					<td width="2%" valign="top" class="checkbox"><img src="/latin/beginners/images/icons/icon_checklist.gif" alt="Checklist" width="24" height="24"></td>
+				  <td width="84%" class="checkbox"><strong>Checklist:</strong><br>
+Are you confident with:</td>
+			      <td width="14%" valign="bottom" class="checkbox"></td>
+				</tr>
+				<tr>
+				  <td class="checkbox"><img src="/latin/beginners/images/pixels/hextrans.gif" alt="" width="1" height="1"></td>
+		    <td class="checkbox">
+
+  <form name="form1" id="form1" method="post" action="">
+    <input type="checkbox" name="checkbox" value="checkbox">
+How to decline carta?
+  </form>
+  <form name="form2" id="form2" method="post" action="">
+    <input type="checkbox" name="checkbox" value="checkbox">
+Why the ending of Latin words is important?
+  </form>
+</td>
+			<td valign="bottom" class="checkbox"><p class="right"><a href="/latin/beginners/lesson02/lesson0203.htm"><img src="/latin/beginners/images/buttons/next.gif" alt="Next" width="55" height="24" border="0" align="bottom"></a></p></td>
+			</tr>
+		  </tbody></table></div>
+		  <p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+</div>
+			]]></content>
+	<section>
+	<section stage="3">
+		<title>Six cases of nouns</title>
+			<content><![CDATA[
+<div id="contentmain">
+
+<h2 class="redanddots">Six cases of nouns</h2>
+<h3>1. Nominative</h3>
+
+<p class="mainbodytext">Used for the <strong>subject</strong> of the verb. The subject is the person or thing doing the verb.<br>
+For example </p>
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr align="center">
+    <td width="50%" class="data"><div align="center"><em>regina orat</em></div></td>
+    <td width="50%" class="data"><div align="center">the queen prays</div></td>
+    </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">The queen is the subject, as she is praying. The queen is in the nominative case.</p>
+<h3>2. 
+
+
+  <strong> Vocative</strong> </h3>
+
+<p class="mainbodytext">Used to call or <strong>address</strong> someone or something.
+<br>
+For example </p>
+<div align="center"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>O domina!</em></td>
+    <td width="50%" class="data">Oh lady!</td>
+    </tr>
+  <tr>
+    <td width="50%" class="data"><em>O regina!</em></td>
+    <td width="50%" class="data">Oh queen!</td>
+  </tr>
+  <tr>
+    <td width="50%" class="data"><em>O Maria!</em></td>
+    <td width="50%" class="data">Oh Mary!</td>
+  </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">The vocative case is the same as the nominative, except in the second declension.</p>
+<div class="bodymargin2"><table width="100%" cellpadding="5" cellspacing="0" border="0">
+				<tbody><tr>
+					<td width="2%" valign="top" class="point"><img src="/latin/beginners/images/icons/icon_point.gif" alt="Latin document points" width="24" height="24"></td>
+				  <td width="98%" class="point"><strong>Latin document points</strong></td>
+		        </tr>
+				<tr>
+				  <td colspan="2" class="point"><img src="/latin/beginners/images/pixels/hextrans.gif" alt="" width="1" height="1">The vocative case is used in chronicles and in the inscriptions on tombs. You will not find it in many other sources.</td>
+		    </tr>
+		  </tbody></table>
+</div>
+
+<p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+
+<h3>3. Accusative</h3>
+
+<p class="mainbodytext">Used for the <strong>object</strong> of a verb. The object is the person or thing the verb is done to.<br>
+For example </p>
+<div align="center">
+<table width="90%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><div align="center"><em>domina cartam confirmat. </em></div></td>
+    <td width="50%" class="data"><div align="center">The lady confirms the charter. </div></td>
+    </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">‘the lady’ is the subject and in the nominative. ‘the charter’ is the object and in the accusative.</p>
+<h3>4. Genitive</h3>
+
+<p class="mainbodytext">Used for nouns that are ‘<strong>of</strong>’ something else and also to show <strong>possession</strong>. <br>
+For example </p>
+<div align="center"><table width="50%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><em>terra ecclesie.</em></td>
+    <td width="50%" class="data">The land of the church.</td>
+    </tr>
+	<tr>
+    <td width="50%" class="data"><em>filie vidue.</em></td>
+    <td width="50%" class="data">The widow’s daughters.</td>
+    </tr>
+</tbody></table>
+</div>
+<h3>5. Dative</h3>
+
+<p class="mainbodytext">Used for nouns that are <strong>to</strong> or <strong>for</strong> something.<br>
+For example </p>
+<div align="center">
+  <table width="60%" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+      <td width="50%" class="data"><div align="center"><em>terram ecclesie do. </em></div></td>
+      <td width="50%" class="data"><div align="center">I give land to the church. </div></td>
+    </tr>
+    
+  </tbody></table>
+</div>
+<p class="mainbodytext">‘I give’ is the verb – <em>do</em>. ‘land’ is the object – it is in the accusative. ‘to the church’ is in the dative.</p>
+<h3>6. Ablative</h3>
+
+<p class="mainbodytext">Used for nouns that are <strong>by</strong>, <strong>with</strong> or <strong>from</strong> something.<br>
+For example </p>
+<div align="center"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" class="data"><div align="center"><em>papa ecclesiam carta confirmat.  </em></div></td>
+    <td width="50%" class="data"><div align="center">The pope confirms the church by a charter. </div></td>
+    </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">‘the pope’ is the subject – it is in the nominative. ‘confirms’ is the verb.<br>
+‘the church’ is the object – it is in the accusative. ‘by a charter’ is ablative.
+</p>
+<h2 class="redanddots">Word order in Latin</h2>
+<p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+<p class="mainbodytext">Think about the order that words are arranged in sentences.</p>
+<div align="center"><table width="60%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td class="data">In English,</td>
+    <td class="data">‘I give land’.</td>
+  </tr>
+  <tr>
+    <td width="50%" class="data">The word order is: </td>
+    <td width="50%" class="data">subject (<em>I</em>) + verb (<em>give</em>) + object (<em>land</em>). </td>
+    </tr>
+	<tr>
+	  <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+	  </tr>
+	<tr>
+    <td width="50%" class="data">The Latin translation is: 
+
+</td>
+    <td width="50%" class="data"><em>terram do. </em></td>
+    </tr>
+	<tr>
+	  <td class="data">The word order is:</td>
+	  <td class="data">object (land) + verb (I give).</td>
+	  </tr>
+	<tr>
+	  <td class="data">The subject is:  </td>
+	  <td class="data">‘I’, which is expressed in the word <em>do</em>.</td>
+	  </tr>
+</tbody></table>
+</div>
+<p class="mainbodytext">Often in Latin</p> 
+<div class="bodymargin2"><ul><li>The subject is at the beginning of the sentence</li>
+<li>The verb is at the end of the sentence</li>
+<li>The object of the sentence follows the subject</li>
+</ul></div>
+<div align="center">
+  <table width="70%" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+      <td width="50%" class="data"><em>domine cartas dant. </em></td>
+      <td width="50%" class="data">‘the ladies give charters’.</td>
+    </tr>
+    <tr>
+      <td class="data">The word order is:  </td>
+      <td class="data">subject (the ladies) + object (charters) + verb (give).</td>
+    </tr>
+    
+  </tbody></table>
+</div>
+<p class="mainbodytext">However, these rules were not always applied and vary between documents.<br>
+You may find that the word order is different in your document. It may even be in the same order as English.</p>
+ 
+<p class="mainbodytext">Look out for sentences that do and don’t keep to these rules during the tutorial.</p>
+
+<div class="bodymargin2"><table width="100%" cellpadding="5" cellspacing="0" border="0">
+				<tbody><tr>
+					<td width="2%" valign="top" class="checkbox"><img src="/latin/beginners/images/icons/icon_checklist.gif" alt="Checklist" width="24" height="24"></td>
+				  <td width="84%" class="checkbox"><strong>Checklist:</strong><br>
+Are you confident with:</td>
+			      <td width="14%" valign="bottom" class="checkbox"></td>
+				</tr>
+				<tr>
+				  <td class="checkbox"><img src="/latin/beginners/images/pixels/hextrans.gif" alt="" width="1" height="1"></td>
+		    <td class="checkbox">
+
+  <form name="form1" id="form1" method="post" action="">
+    <input type="checkbox" name="checkbox" value="checkbox">
+The six cases for nouns and when they are used?
+  </form>
+  <form name="form2" id="form2" method="post" action="">
+    <input type="checkbox" name="checkbox" value="checkbox">
+Where the subject, verb and object may appear in a Latin sentence?
+  </form>
+</td>
+			<td valign="bottom" class="checkbox"><p class="right"><a href="/latin/beginners/practice/lesson02.htm"><img src="/latin/beginners/images/buttons/practice.gif" alt="Practice sentences" width="133" height="24" border="0" align="bottom"></a></p></td>
+			</tr>
+		  </tbody></table></div>
+		  <p align="right"><a href="#top" class="topofpage"><img src="/images/arrows/arrowup.gif" alt="Top of page" width="11" height="11" border="0"> Top of page</a></p>
+</div>
+			]]></content>
+	<section>
+</lesson>

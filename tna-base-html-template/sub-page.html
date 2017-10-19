@@ -4,10 +4,22 @@
 <head>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/modernizr.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "http://www.nationalarchives.gov.uk/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://www.nationalarchives.gov.uk/search/results?_q={search_term}",
+    "query-input": "required name=search_term"
+  }
+}
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="initial-scale = 1.0" name="viewport">
-
     <meta scheme="DCTERMS.URI" content="http://www.nationalarchives.gov.uk/" name="DC.identifier">
     <meta content="The National Archives - TNA Base HTML Template" name="DC.title">
     <meta content="http://www.nationalarchives.gov.uk/legal/copyright.htm" name="DC.rights">
@@ -30,27 +42,11 @@
           type='text/css' media='all'/>
     <link rel='stylesheet' href="css/base-sass.min.css"/>
 
-    <script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "url": "http://www.nationalarchives.gov.uk/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "http://www.nationalarchives.gov.uk/search/results?_q={search_term}",
-    "query-input": "required name=search_term"
-  }
-}
-
-
-
-    </script>
     <!-- Fav icon -->
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
     <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico">
-
-
 </head>
+
 <body>
 
 <!-- Google Tag Manager -->
@@ -135,7 +131,6 @@
         </div>
     </div>
 </header>
-
 
 <nav id="nav" role="navigation">
     <div class="mega-menu clearfix">
@@ -243,7 +238,6 @@
         </ul>
     </div>
 </nav>
-
 
 <div id="breadcrumb-holder" class="tna-breadcrumb">
     <div class="container">
@@ -495,11 +489,9 @@
     </div>
 </footer>
 
-
 <!-- Scripts -->
 <script src="js/tna-base.min.js"></script>
 <!-- End Scripts -->
-
-
 </body>
+
 </html>

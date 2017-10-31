@@ -1,0 +1,6 @@
+.child-full-width .li {
+    list-style-image: url(../img/list-link-bullet.png);
+    width: 96%;
+    float: left;
+    margin-bottom: 1em;
+}

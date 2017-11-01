@@ -64,7 +64,7 @@ generate_breadcrumbs( $pagesArray );
             </div>
         </div>
         <div class="row equal-heights" id="equal-heights">
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 col-sm6">
                 <article>
                     <div class="entry-header">
                         <h2>
@@ -72,16 +72,16 @@ generate_breadcrumbs( $pagesArray );
                         </h2>
                     </div>
                     <div class="entry-content clearfix">
-                        <ul class="sibling">
+                        <ul class="lesson-list-parent">
                             <li>Lesson 1
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li>  <a href="#">Introduction to verbs.</a></li>
 
                                 </ul>
                             </li>
                             <li>Lesson 2
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">Introduction to nouns.</a></li>
 
@@ -94,7 +94,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 3
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">Second declension nouns.</a></li>
 
@@ -104,7 +104,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 4
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li> <a href="#">‘Non’ and negative sentences. </a></li>
 
@@ -115,7 +115,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 5
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">First and second declension adjectives. </a></li>
 
@@ -125,7 +125,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 6
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">‘Hic’, ‘hec’, ‘hoc’.</a></li>
 
@@ -135,7 +135,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 7
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li> <a href="#">Third declension nouns. </a></li>
 
@@ -145,7 +145,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 8
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li> <a href="#">Prepositions. </a></li>
 
@@ -155,7 +155,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 9
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">Using the word list for verbs.</a></li>
 
@@ -165,7 +165,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 10
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">‘Qui’, ‘que’, ‘quod’. </a></li>
 
@@ -174,7 +174,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 11
-                                <ul class="child">
+                                <ul class="lesson-list-child">
 
                                         <li><a href="#">Fourth and fifth declension nouns. </a></li>
 
@@ -183,7 +183,7 @@ generate_breadcrumbs( $pagesArray );
                                 </ul>
                             </li>
                             <li>Lesson 12
-                                <ul class="child">
+                                <ul class="lesson-list-child">
                                         <li><a href="#">Adverbs.</a></li>
 
                                         <li><a href="#">Numbers and dates. </a></li>
@@ -208,10 +208,10 @@ generate_breadcrumbs( $pagesArray );
                         </h2>
                     </div>
                     <div class="entry-content clearfix">
-                        <ul class="sibling">
+                        <ul class="lesson-list-parent">
                             <li>
                                 Lesson 13
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: the imperfect tense
@@ -221,7 +221,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 14
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: the pluperfect tense
@@ -231,7 +231,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 15
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: the future simple tense
@@ -241,7 +241,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 16
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: the future perfect tense
@@ -251,7 +251,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 17
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Pronouns
@@ -261,7 +261,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 18
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Passive verbs
@@ -271,7 +271,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 19
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Participles: present, past and future
@@ -281,7 +281,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 20
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Comparison of adjectives and adverbs
@@ -291,7 +291,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 21
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: the indicative, imperative and subjunctive moods
@@ -301,7 +301,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 22
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Deponent and semi-deponent verbs
@@ -311,7 +311,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 23
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Geruns and gerundives
@@ -321,7 +321,7 @@ generate_breadcrumbs( $pagesArray );
                             </li>
                             <li>
                                 Lesson 24
-                                <ul>
+                                <ul class="lesson-list-child">
                                     <li>
                                         <a href="#">
                                             Verbs: infinitives

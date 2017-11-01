@@ -13,9 +13,21 @@ function generate_breadcrumbs( $pagesArray ) {
 END;
 
 	for ( $i = 0; $i < sizeof( $pagesArray ); $i ++ ) {
+		if(array_key_exists(0,$pagesArray[$i])){
+			$pageTitle = $pagesArray[ $i ][0];
+		}
+		else {
+			$pageTitle = "Breadcrumbs title error at array position " .$i;
+		}
+		if(array_key_exists(1,$pagesArray[$i])){
+			$pageURL   = $pagesArray[ $i ][1];
+		}
+		else {
+			$pageURL = "http://nationalarchives.gov.uk";
+		}
 
-		$pageTitle = $pagesArray[ $i ][0];
-		$pageURL   = $pagesArray[ $i ][1];
+
+
 
 		if ( $i != sizeof( $pagesArray ) - 1 ) {
 			echo <<<END

@@ -22,7 +22,7 @@ include 'functions/generate-breadcrumbs.php';
 //		Add breadcrumbs here
 $pagesArray = array(
 	array( "Help with your research", "http://nationalarchives.gov.uk/help-with-your-research/" ),
-	array( "Medieval Latin Lessons" )
+	array( "Medieval Latin Lessons", "")
 );
 
 generate_breadcrumbs( $pagesArray );
@@ -75,134 +75,124 @@ generate_breadcrumbs( $pagesArray );
                         <ul class="sibling">
                             <li>Lesson 1
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Introduction to verbs.</li>
-                                    </a>
+
+                                        <li>  <a href="#">Introduction to verbs.</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 2
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Introduction to nouns.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>First declension nouns.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Cases of nouns.</li>
-                                    </a>
+
+                                        <li><a href="#">Introduction to nouns.</a></li>
+
+
+                                        <li> <a href="#">First declension nouns. </a></li>
+
+
+                                        <li> <a href="#">Cases of nouns. </a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 3
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Second declension nouns.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>The verb ‘esse’ (to be).</li>
-                                    </a>
+
+                                        <li><a href="#">Second declension nouns.</a></li>
+
+
+                                        <li><a href="#">The verb ‘esse’ (to be). </a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 4
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>‘Non’ and negative sentences.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Second conjugation verbs.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Numbers.</li>
-                                    </a>
+
+                                        <li> <a href="#">‘Non’ and negative sentences. </a></li>
+
+                                        <li><a href="#">Second conjugation verbs. </a></li>
+
+                                        <li> <a href="#">Numbers.</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 5
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>First and second declension adjectives.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>'Ego' and 'nos' (I and we).</li>
-                                    </a>
+
+                                        <li><a href="#">First and second declension adjectives. </a></li>
+
+
+                                        <li><a href="#">'Ego' and 'nos' (I and we). </a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 6
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>‘Hic’, ‘hec’, ‘hoc’.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Third and fourth conjugation verbs.</li>
-                                    </a>
+
+                                        <li><a href="#">‘Hic’, ‘hec’, ‘hoc’.</a></li>
+
+
+                                        <li> <a href="#">Third and fourth conjugation verbs. </a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 7
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Third declension nouns.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Third declension adjectives.</li>
-                                    </a>
+
+                                        <li> <a href="#">Third declension nouns. </a></li>
+
+
+                                        <li> <a href="#">Third declension adjectives.</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 8
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Prepositions.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Possession.</li>
-                                    </a>
+
+                                        <li> <a href="#">Prepositions. </a></li>
+
+
+                                        <li><a href="#">Possession. </a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 9
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Using the word list for verbs.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Verbs: the past tense (also known as the perfect tense).</li>
-                                    </a>
+
+                                        <li><a href="#">Using the word list for verbs.</a></li>
+
+
+                                        <li><a href="#">Verbs: the past tense (also known as the perfect tense).</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 10
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>‘Qui’, ‘que’, ‘quod’.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>The family.</li>
-                                    </a>
+
+                                        <li><a href="#">‘Qui’, ‘que’, ‘quod’. </a></li>
+
+                                        <li> <a href="#">The family.</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 11
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Fourth and fifth declension nouns.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Days of the week.</li>
-                                    </a>
+
+                                        <li><a href="#">Fourth and fifth declension nouns. </a></li>
+
+                                        <li><a href="#">Days of the week.</a></li>
+
                                 </ul>
                             </li>
                             <li>Lesson 12
                                 <ul class="child">
-                                    <a href="#">
-                                        <li>Adverbs.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Numbers and dates.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Months.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Useful phrases.</li>
-                                    </a>
-                                    <a href="#">
-                                        <li>Dating clauses.</li>
-                                    </a>
+                                        <li><a href="#">Adverbs.</a></li>
+
+                                        <li><a href="#">Numbers and dates. </a></li>
+
+                                        <li><a href="#">Months.</a></li>
+
+                                        <li><a href="#">Useful phrases.</a></li>
+
+                                        <li><a href="#">Dating clauses.</a></li>
                                 </ul>
                             </li>
 
@@ -210,7 +200,7 @@ generate_breadcrumbs( $pagesArray );
                     </div>
                 </article>
             </div>
-            <div class="col-xs-12 col-sm-6 col-sm6" style="height: 431px;">
+            <div class="col-xs-12 col-sm-6 col-sm6">
                 <article>
                     <div class="entry-header">
                         <h2>

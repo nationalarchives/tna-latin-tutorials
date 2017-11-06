@@ -261,14 +261,10 @@
 <main id="primary" role="main" class="content-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <article>
+            <div class="col-md-12 banner level-one">
+                <article class="banner feature-img feature-img-bg" style="background-image: url(./img/virgin-and-child.jpg);">
                     <div class="entry-header">
-                        <h1>Learn Latin banner</h1>
-                    </div>
-                    <div class="row entry-content">
-                        <div class="col-xs-12 col-sm-8 col-md-8"><p>Example content.</p>
-                        </div>
+                        <h1>Learn Latin 1086 - 1733</h1>
                     </div>
                 </article>
             </div>
@@ -278,7 +274,7 @@
                         <h1>Lesson blurb</h1>
                     </div>
                     <div class="row entry-content">
-                        <div class="col-xs-12 col-sm-8 col-md-8"><p>Example content.</p>
+                        <div class="col-xs-12 col-sm-8 col-md-8"><p>Brief description of the lesson</p>
                         </div>
                     </div>
                 </article>
@@ -288,10 +284,11 @@
             <div class="col-xs-12 col-sm-9 col-md-9" style="height: 431px;">
                 <article>
                     <div class="entry-header">
-                        <h1>Lesson content</h1>
+                        <h1>Lesson number: Lesson title</h1>
                     </div>
                     <div class="entry-content clearfix">
-                        <p>Example text</p>
+                        <h2>Lesson subheading</h2>
+                        <p>Lesson content</p>
                     </div>
                 </article>
             </div>
@@ -303,30 +300,29 @@
                     <div class="entry-content clearfix">
                         <ul class="sibling">
                             <li>
-                                <a href="#" title="Volunteer experiences">
-                                    Link 1 </a>
+                                <a href="#" title="Lesson 1">
+                                    Lesson 1 </a>
                             </li>
                             <li>
-                                <a href="#" title="Staff experiences">
-                                    Link 2 </a>
+                                <a href="#" title="Lesson 2">
+                                    Lesson 2 </a>
                             </li>
                             <li>
-                                <a href="#" title="Annual volunteer survey">
-                                    Link 3 </a>
+                                <a href="#" title="Lesson 3">
+                                    Lesson 3 </a>
                             </li>
                             <li>
-                                <a href="#" title="Annual volunteer survey">
-                                    Link 4 </a>
+                                <a href="#" title="Lesson 4">
+                                    Lesson 4 </a>
                             </li>
                             <li>
-                                <a href="#" title="Annual volunteer survey">
-                                    Link 5 </a>
+                                <a href="#" title="Lesson 5">
+                                    Lesson 5 </a>
                             </li>
                         </ul>
                     </div>
                 </article>
             </div>
-
         </div>
     </div>
 </main>

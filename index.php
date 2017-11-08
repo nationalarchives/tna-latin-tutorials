@@ -3,6 +3,7 @@
 
 <?php
 //Used for browser title and for META tags.
+include 'functions.php';
 $title = "Medieval Latin Lessons - The National Archives"
 ?>
 

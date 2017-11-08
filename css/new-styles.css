@@ -12,3 +12,38 @@
     font-size: 1em;
     font-weight: normal;
 }
+
+.filter-togglee {
+    display: none;
+    text-align: left;
+    background: white;
+    color: black;
+    padding: 10px;
+    margin-top: 0;
+    transition: height 1s ease-out;
+}
+
+.filter-toggler {
+    -webkit-transition: background-image 300ms linear;
+    -moz-transition: background-image 300ms linear;
+    -o-transition: background-image 300ms linear;
+    -ms-transition: background-image 300ms linear;
+    transition: background-image 300ms linear;
+    margin-top: 0;
+    text-align: left;
+    display: block;
+    padding: .8em;
+    background-color: #eee;
+    color: #000;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #fff;
+    background-image: url(http://www.nationalarchives.gov.uk/wp-content/themes/tna/images/global/icon-24-accordion-open.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: 99% center;
+    cursor: pointer;
+}
+
+.show{
+    background-image: url(http://www.nationalarchives.gov.uk/wp-content/themes/tna/images/global/icon-24-accordion-close.png);
+}

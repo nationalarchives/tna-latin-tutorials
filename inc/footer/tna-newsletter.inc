@@ -1,7 +1,7 @@
 <div class="container">
     <div class="newsletter-template">
         <div class="news-icon">
-            <img src="./img/tna-newsletter-icon.png"
+            <img src="<?php echo SITE_URL ?>img/tna-newsletter-icon.png"
                  alt="The National Archives Newsletter Icon"/>
         </div>
 

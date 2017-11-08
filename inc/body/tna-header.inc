@@ -6,7 +6,7 @@
                 <button aria-label="Toggle menu" id="mega-menu-mobile"></button>
                 <a href="http://www.nationalarchives.gov.uk" title="Go to The National Archives homepage"
                    class="visible-lg visible-md visible-sm">
-                    <img src="./img/logo-white.png" alt="The National Archives"
+                    <img src="../img/logo-white.png" alt="The National Archives"
                          class="img-responsive">
                 </a>
             </div>
@@ -15,7 +15,7 @@
                     <span>Menu</span></button>
                 <a href="http://www.nationalarchives.gov.uk" title="Go to The National Archives homepage"
                    class="hidden-lg hidden-md hidden-sm">
-                    <img src="./img/logo-white.png" alt="The National Archives"
+                    <img src="../img/logo-white.png" alt="The National Archives"
                          class="img-responsive">
                 </a>
             </div>

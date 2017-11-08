@@ -1,5 +1,5 @@
 <?php
-include 'inc/footer/tna-newsletter.inc';
-include 'inc/footer/tna-footer.inc';
-include 'inc/footer/tna-footer-scripts.inc';
+include 'tna-newsletter.inc';
+include 'tna-footer.inc';
+include 'tna-footer-scripts.inc';
 ?>

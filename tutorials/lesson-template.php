@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<!-- Author: Ashley Burnett -->
 
 <?php
 //Used for browser title and for META tags.
@@ -22,12 +21,12 @@ include '../functions/generate-breadcrumbs.php';
 
 //		Add breadcrumbs here
 $pagesArray = array(
-    array( "Help with your research", "http://nationalarchives.gov.uk/help-with-your-research/" ),
-    array( "Medieval Latin Lessons", "../index.php"),
-    array( "Lesson", "" )
+    array("Help with your research", "http://nationalarchives.gov.uk/help-with-your-research/"),
+    array("Medieval Latin Lessons", "../index.php"),
+    array("Lesson", "")
 );
 
-generate_breadcrumbs( $pagesArray );
+generate_breadcrumbs($pagesArray);
 ?>
 
 <!-- BEGIN EDITING CONTENT -->

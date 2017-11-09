@@ -23,7 +23,8 @@ include '../functions/generate-breadcrumbs.php';
 //		Add breadcrumbs here
 $pagesArray = array(
     array( "Help with your research", "http://nationalarchives.gov.uk/help-with-your-research/" ),
-    array( "Medieval Latin Lessons", "")
+    array( "Medieval Latin Lessons", "../index.php"),
+    array( "Lesson", "" )
 );
 
 generate_breadcrumbs( $pagesArray );

@@ -4,7 +4,7 @@
     font-weight: bold;
 }
 
-.lesson-list-parent li {
+.lesson-list-parent li, .lesson-sidebar li{
     list-style-image: url(../img/list-link-bullet.png);
 }
 

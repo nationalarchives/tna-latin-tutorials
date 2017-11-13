@@ -1,10 +1,10 @@
 <?php
 
-function siteURL()
+function site_url()
 {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    $domainName = $_SERVER['HTTP_HOST'] . '/';
-    return $protocol . $domainName;
+    $domain_name = $_SERVER['HTTP_HOST'] . '/';
+    return $protocol . $domain_name;
 }
 
-define('SITE_URL', siteURL());
+define('SITE_URL', site_url());

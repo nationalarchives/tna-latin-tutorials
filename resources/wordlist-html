@@ -23,7 +23,7 @@
                 <p>Remember that this word list gives the most common medieval spelling of each word. 
                 It does not list the many variants of the word. In particular, 
                 in Tudor and Stuart documents you may find that the word is spelt with  an ‘ae’ instead of an ‘e’.</p>
-                <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <p><strong>Nouns</strong></p>
                 <p>Nouns are given in the nominative singular, followed by the genitive singular ending. The gender of the noun is given and its meaning in English.<br />
                 Look at our example of <em>terra</em></p>
@@ -50,7 +50,7 @@
                     If you know which case it belongs to - you can work out how to decline it.</p>
                 <p>The genitive singular of third declension nouns is particularly important. 
                 Therefore, both the nominative and genitive singular of third declension nouns is given in full.</p>
-                <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <p><strong>Verbs</strong></p>
                 <p>Verbs are given in parts (called the principal parts).
                     <br />
@@ -97,7 +97,7 @@
                 <p>With this information, you will be able to conjugate each verb.<br />
                     Sometimes part four is not given.
                 </p>
-                <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <p><strong>Adjectives</strong></p>
                 <p>These are all noted. For first and second declension adjectives, the masculine, feminine and neuter 
                     nominative singular forms are given, with their meaning.
@@ -178,7 +178,7 @@
             </table>
                 <p>For an explanation of this, see <a href="/latin/beginners/lesson07/lesson0702.htm#third">lesson seven.</a></p>
                 
-                <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <p><strong>Pronouns</strong></p>
                 <p>The masculine, feminine and neuter nominative singular forms are given, with their meaning. All pronouns are noted.<br />
                     For example</p>
@@ -213,8 +213,8 @@
                 <p><strong>Abbreviations</strong></p>
                 <p>These abbreviations are used in the word list:<br />
                     For example</p>
-            <div align="center">
-            <table width="1%"  border="0" cellspacing="0" cellpadding="0">
+            <div>
+            <table>
                 <tr>
                     <td>(f.)</td>
                     <td>feminine</td>
@@ -234,7 +234,7 @@
                     For example</p>
                 <p class="problem"><em>probo, probare, probavi, probatum </em>(1) to prove (a will)</p>
                 <a name="wordlist" id="wordlist"></a><br />
-                <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                <p><a href="#" alt="#Word list">Top of the Word list</a></p>
         </div>
     </article>
 </div>
@@ -349,7 +349,7 @@
                     <dt>avus, -i<dt>
                     <dd>(m.) grandfather</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="B"><em>baro, baronis</em></dt><dd></hr>
                     <dd>(m.) baron, tenant-in-chief</dd><hr>
@@ -370,7 +370,7 @@
                     <dt><em>burgagium, -ii</em></dt>
                     <dd> (n.) burgage</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="C"><em>calcar, calcaris</em></dt><dd> (n.) spur</dd><hr>
                     <dt><em>capio, capere, cepi, captum</em></dt><dd> (3) to take, seize, rent</dd><hr>
@@ -403,7 +403,7 @@
                     <dt><em>cum</em></dt><dd> (preposition + ablative) with</dd><hr>
                     <dt><em>curia, -e</em></dt><dd> (f.) court</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="D"><em>dampnum, -i</em></dt><dd> (n.) damage</dd><hr>
                     <dt><em>data</em></dt><dd> given, dated</dd><hr>
@@ -434,7 +434,7 @@
                     <dt><em>duodecim</em></dt><dd> twelve</dd><hr>
                     <dt><em>duodeviginti</em></dt><dd> eighteen</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="E"><em>e</em></dt><dd> (before a consonant)/<em>ex</em></dt><dd> (before a vowel) (preposition + ablative) from, out of </dd><hr>
                     <dt><em>Eboracum, -i</em></dt><dd> (n.) York</dd><hr>
@@ -456,7 +456,7 @@
                     <dt><em>exitus, -us</em></dt><dd> (m.) profits, exit, revenue</dd><hr>
                     <dt><em>expensum, -i</em></dt><dd> (n.) money paid, payment, expense</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="F"><em>faber, fabri</em></dt><dd> (m.) smith</dd><hr>
                     <dt><em>facio, facere, feci, factum</em></dt><dd> (3) to make, do</dd><hr>
@@ -474,12 +474,7 @@
                     <dt><em>frater, fratris</em></dt><dd> (m.) brother</dd><hr>
                     <dt><em>fundatio, fundationis</em></dt><dd> (f.) foundation</dd><hr>
                 </dl>
-                    <p align="right">
-                       <a class="topofpage" href="#" alt="#Word list" src="/images/arrows/arrowup.gif" border= "0"></img>
-                        Top of the Word list
-                       </a>
-
-                    </p>
+                   <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="G"><em>garderoba, -e</em></dt><dd> (f.) wardrobe</dd><hr>
                     <dt><em>generosus, -i</em></dt><dd> (m.) gentleman</dd><hr>
@@ -492,7 +487,7 @@
                     <dt><em>gratia, -e</em></dt><dd> (f.) grace</dd><hr>
                     <dt><em>Gulielmus, -i</em></dt><dd> (m.) William</dd><hr>
                 </dl>    
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="H"><em>habeo, habere, habui, habitum</em></dt><dd> (2) to have </dd><hr>
                     <dt><em>Henricus, -i</em></dt><dd> (m.) Henry</dd><hr>
@@ -507,7 +502,7 @@
                     <dt><em>Hugo, Hugonis</em></dt><dd> (m.) Hugh</dd><hr>
                     <dt><em>huiusmodi</em></dt><dd> this</dd><hr>
                 </dl>    
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="I"><em>iaceo, iacere, iacui, iacitum</em></dt><dd> (2) to lie, to be situated</dd><hr>
                     <dt><em>ibi</em></dt><dd> there</dd><hr>
@@ -528,7 +523,7 @@
                     <dt><em>item</em></dt><dd> (adverb) likewise, moreover, also</dd><hr>
                     <dt><em>iuxta</em></dt><dd> (preposition + accusative) next to, near, according to</dd><hr>
                 </dl>    
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "J"><em>Januarius, -i</em></dt><dd> (m.) January</dd><hr>
                     <dt><em>Johanna, -e</em></dt><dd> (f.) Joanna</dd><hr>
@@ -538,7 +533,7 @@
                     <dt><em>jurator, juratoris</em></dt><dd> (m.) juror</dd><hr>
                     <dt><em>jus, juris</em></dt><dd></dt><dd> (n.) right, law</dd><hr>
                 </dl>            
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="L"><em>laboro, laborare, laboravi, laboratum</em></dt>
                     <dd> (1) to work</dd><hr>
@@ -550,7 +545,7 @@
                     <dt><em>littera, -e</em></dt><dd> (f.) letter</dd><hr>
                     <dt><em>Londinia, -e</em></dt><dd> (f.) Londinium-ii (n) London</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="M"><em>magister, magistri</em></dt><dd> (m.) master</dd><hr>
                     <dt><em>magnus, -a, -um</em></dt><dd> (adjective) great, big</dd><hr>
@@ -583,7 +578,7 @@
                     <dt><em>mors, mortis</em></dt><dd> (f.) death</dd><hr>
                     <dt><em>moveo, movere, movi, motum</em></dt><dd> (2) to move</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="N"><em>navis, navis</em></dt><dd> (f.) ship [genitive plural navium]</dd><hr>
                     <dt><em>neuter, neutra, neutrum</em></dt><dd> (adjective) neither (of two things)</dd><hr>
@@ -600,7 +595,7 @@
                     <dt><em>nunc</em></dt><dd> (adverb) now</dd><hr>
                     <dt><em>nuper</em></dt><dd> (adverb) former, lately</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id="O"><em>O!</em></dt><dd> Oh!</dd><hr>
                     <dt><em>obeo, obire, obii, obitum</em></dt><dd> to die</dd><hr>
@@ -615,7 +610,7 @@
                     <dt><em>oro, orare, oravi, oratum</em></dt><dd> (1) to pray</dd><hr>
                     <dt><em>ostendo, ostendere, ostendi, ostentum</em></dt>(3)<dd> to show</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dt>
                     <dt id= "P"><em>panis, -is</em></dt><dd> (m.) bread</dd><hr>
                     <dt><em>papa, -e</em></dt><dd> (m.) pope</dd><hr>
@@ -649,7 +644,7 @@
                     <dt><em>puer, pueri</em></dt><dd> (m.) boy</dd><hr>
                     <dt><em>pulcher, pulchra, pulchrum</em></dt><dl> (adjective) beautiful</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "Q"><em>quadraginta</em></dt><hr>
                     <dd>forty</dd><hr>
@@ -665,7 +660,7 @@
                     <dt><em>quinque</em></dt><dd> five</dd><hr>
                     <dt><em>quod</em></dt><dd> because, that (after ‘to know’, ‘to say’)</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "R"><em>Radulphus, -i</em></dt><dd> (m.) Ralph</dd><hr>
                     <dt><em>recognosco, recognoscere, recognovi, recognitum</em></dt><dd> (3) to acknowledge</dd><hr>
@@ -679,7 +674,7 @@
                     <dt><em>Rogerus, -i</em></dt><dd> (m.) Roger</dd><hr>
                     <dt><em>rotulus, -i</em></dt><dd> (m.) roll, record</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "S"><em>sacramentum, -i</em></dt><dd> (n.) oath, sacrament</dd><hr>
                     <dt><em>sanctus, -a, -um</em></dt><dd> (adjective) saint</dd><hr>
@@ -731,7 +726,7 @@
                     <dt><em>super</em></dt><dd> (preposition + accusative) over, (preposition + ablative) upon</dd><hr>
                     <dt><em>suus, sua, suum</em></dt><dd> (pronoun) his, her, its, their (own)</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "T"><em>tandem</em></dt><dd> (adverb) at length</dd><hr>
                     <dt><em>teignus, -i</em></dt><dd> (m.) thane</dd><hr>
@@ -756,7 +751,7 @@
                     <dt><em>turris, turris</em></dt><dd> (f.) tower</dd><hr>
                     <dt><em>tuus, tua, tuum</em></dt><dd> (pronoun) your, yours (one person)</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "U"><em>ubi</em></dt><dd> (adverb) where, when</dd><hr>
                     <dt><em>ullus, -a, -um</em></dt><dd> (adjective) any</dd><hr>
@@ -766,7 +761,7 @@
                     <dt><em>uter, utra, utrum</em></dt><dd> (adjective) which (of two things)</dd><hr>
                     <dt><em>uxor, uxoris</em></dt><dd> (f.) wife</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "V"><em>venerabilis, -e,</em></dt><dd> (adjective) venerable</dd><hr>
                     <dt><em>venio, venire, veni, ventum</em></dt><dd> (4) to come</dd><hr>
@@ -798,7 +793,7 @@
                     <dt><em>vita, -e</em></dt><dd> (f.) life</dd><hr>
                     <dt><em>voco, vocare, vocavi, vocatum</em></dt><dd> (1) to call</dd><hr>
                 </dl>
-                    <p align="right"><a href="#" alt="#Word list">Top of the Word list</a></p>
+                    <p><a href="#" alt="#Word list">Top of the Word list</a></p>
                 <dl>
                     <dt id= "W">Walterus, -i (m.)</dt>
                     <dd> Walter</dd><hr>

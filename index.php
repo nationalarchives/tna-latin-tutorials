@@ -3,13 +3,13 @@
 
 <?php
 //Used for browser title and for META tags.
-$title = "Medieval Latin Lessons - The National Archives"
+$title = "Medieval Latin Lessons"
 ?>
 
 <!-- no-js class is needed for Modernizr -->
 <html lang="en-gb" class="no-js">
 <head>
-    <title><?= $title ?></title>
+    <title><?php echo $title ?></title>
 	<?php
 	include 'inc/head/head.php';
 	?>
@@ -22,7 +22,7 @@ include 'functions/generate-breadcrumbs.php';
 //		Add breadcrumbs here
 $pagesArray = array(
 	array( "Help with your research", "http://nationalarchives.gov.uk/help-with-your-research/" ),
-	array( "Medieval Latin Lessons", "")
+	array(  $title, "")
 );
 
 generate_breadcrumbs( $pagesArray );
@@ -34,9 +34,9 @@ generate_breadcrumbs( $pagesArray );
         <div class="row" role="banner">
             <div class="col-md-12">
                 <article class="banner feature-img feature-img-bg"
-                         style="background-image: url(./img/banner-image.png);">
+                         style="background-image: url(./img/banner.jpg);">
                     <div class="entry-header">
-                        <h1>Latin 1086 – 1733</h1>
+                        <h1><?php echo $title ?></h1>
                     </div>
                 </article>
             </div>
@@ -51,12 +51,11 @@ generate_breadcrumbs( $pagesArray );
             <div class="col-md-12">
                 <article>
                     <div class="entry-header">
-                        <h1>Free Medieval Latin Lessons</h1>
+                        <h2>Learn 1086 - 1733 Latin</h2>
                     </div>
                     <div class="row entry-content">
                         <div class="col-md-12">
-                            <p>This tutorial is a beginners' guide to the Latin used in documents between 1086 and
-                                1733.</p>
+                            <p><strong>Jump to:</strong> <a href="#stage-1">stage 1</a> | <a href="#stage-2">stage 2</a></p>
                         </div>
                     </div>
                 </article>
@@ -67,8 +66,8 @@ generate_breadcrumbs( $pagesArray );
             <div class="col-xs-12 col-sm-6 col-sm6">
                 <article>
                     <div class="entry-header">
-                        <h2>
-                            <a href="#" title="#">Latin Stage 1</a>
+                        <h2 id="stage-1">
+                           Stage 1
                         </h2>
                     </div>
                     <div class="entry-content clearfix">
@@ -203,8 +202,8 @@ generate_breadcrumbs( $pagesArray );
             <div class="col-xs-12 col-sm-6 col-sm6">
                 <article>
                     <div class="entry-header">
-                        <h2>
-                            <a href="#" title="#">Latin Stage 2</a>
+                        <h2 id="stage-2">
+                            Stage 2
                         </h2>
                     </div>
                     <div class="entry-content clearfix">

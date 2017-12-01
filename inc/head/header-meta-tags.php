@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta content="initial-scale = 1.0" name="viewport">
 <meta scheme="DCTERMS.URI" content="http://www.nationalarchives.gov.uk/" name="DC.identifier">
-<meta content="<?=$title?>" name="DC.title">
+<meta content="<?=$title?> - The National Archives" name="DC.title">
 <meta content="http://www.nationalarchives.gov.uk/legal/copyright.htm" name="DC.rights">
 <meta content="The National Archives" name="DC.publisher">
 <meta content="The National Archives" name="DC.creator">

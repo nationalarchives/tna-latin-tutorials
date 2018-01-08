@@ -1,14 +1,18 @@
 .lesson-list-parent {
     font-family: "Bitter","Open Sans",SansSerif;
     font-size: 1.25em;
-    font-weight: bold;
+    list-style: none;
 }
 
 .lesson-list-parent li {
-    list-style-image: url(../img/list-link-bullet.png);
+    list-style-type: none;
 }
 
 .lesson-list-child {
     font-size: 1em;
     font-weight: normal;
+}
+
+.lesson-list-child li {
+    list-style-image: url(../img/list-link-bullet.png);
 }
